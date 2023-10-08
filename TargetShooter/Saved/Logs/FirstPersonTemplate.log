@@ -4800,3 +4800,1526 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2023.10.08-17.18.57:821][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
 [2023.10.08-17.18.57:838][844]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
 [2023.10.08-17.18.57:870][845]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.10.08-17.24.47:613][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.24.47:727][ 57]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.24.47:728][ 57]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameFC61D073432851ACAD78CFBA52F8F46F.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.24.47:743][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 19.9 sec)
+[2023.10.08-17.24.47:745][ 57]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.24.47:746][ 57]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.25.51:482][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.25.51:650][655]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.25.51:651][655]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameC2B0FC48433C7970071123BAE64CF0FD.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.25.51:672][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 20.1 sec)
+[2023.10.08-17.25.51:675][655]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.25.51:675][655]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.26.02:723][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.26.02:852][907]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.26.02:853][907]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame52DD8C244AD04617D4C90BB8E4554F1C.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.26.02:874][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 20.3 sec)
+[2023.10.08-17.26.02:877][907]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.26.02:878][907]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.26.13:153][985]LogDerivedDataCache: C:/Users/dbars/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.394 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4906 files in 6366 folders with total size 346 MiB.
+[2023.10.08-17.26.31:175][612]LogSlate: Window 'Color Picker' being destroyed
+[2023.10.08-17.26.31:593][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.26.31:751][634]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.26.31:752][634]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame6C20CC1C4C6CD9DDF094F188CCD983E8.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.26.31:775][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 20.4 sec)
+[2023.10.08-17.26.31:779][634]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.26.31:779][634]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.26.33:857][758]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.26.33:866][758]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.26.33:866][758]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.26.33:872][758]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 5 ms (total: 172 ms)
+[2023.10.08-17.26.33:872][758]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.26.33:885][758]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.26.34:048][758]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2023.10.08-17.26.34:052][758]LogPlayLevel: PlayLevel: Blueprint regeneration took 179 ms (1 blueprints)
+[2023.10.08-17.26.34:052][758]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:26:34)
+[2023.10.08-17.26.34:053][758]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.26.34:062][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008451s)
+[2023.10.08-17.26.34:062][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008514s)
+[2023.10.08-17.26.34:085][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.10.08-17.26.34:086][758]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.26.34:087][758]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.26.34:087][758]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.26.34:088][758]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.26.34:088][758]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.26.34:088][758]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.26.34:088][758]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.26.34:091][758]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.26.34:091][758]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 287 ms)
+[2023.10.08-17.26.34:091][758]LogPlayLevel: PIE: World Init took: (0.004385s)
+[2023.10.08-17.26.34:091][758]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.10.08-17.26.34:091][758]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.26.34:091][758]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.26.34:091][758]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.26.34:091][758]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.26.34:091][758]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.26.34:091][758]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.26.34:091][758]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.26.34:091][758]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.26.34:092][758]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.26.34:092][758]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.26.34:092][758]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.26.34:095][758]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.26.34:149][758]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.26.34:150][758]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.26.34:150][758]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.26.34:150][758]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.26.34:152][758]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.10.08-17.26.34:152][758]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.10.08-17.26.34:155][758]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.10.08-17.26.34:155][758]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.10.08-17.26.34:155][758]LogInit: FAudioDevice initialized with ID 36.
+[2023.10.08-17.26.34:155][758]LogAudio: Display: Audio Device (ID: 36) registered with world 'FirstPersonMap'.
+[2023.10.08-17.26.34:155][758]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2023.10.08-17.26.34:259][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.26.34:259][758]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.26.34:267][758]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.26.34
+[2023.10.08-17.26.34:268][758]LogWorld: Bringing up level for play took: 0.007639
+[2023.10.08-17.26.34:273][758]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.10.08-17.26.34:277][758]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.26.34:281][758]PIE: Server logged in
+[2023.10.08-17.26.34:281][758]PIE: Play in editor total start time 0,416 seconds.
+[2023.10.08-17.26.34:411][758]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.26.37:250][762]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.26.41:870][857]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.26.41:871][857]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.26.41:871][857]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.26.43:295][895]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.26.43:295][895]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.26.43:295][895]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.26.43:296][895]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.26.43:297][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.26.43:297][895]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.26.43:376][895]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-17.26.43:382][895]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2023.10.08-17.26.43:387][895]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.26.43:398][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010792s)
+[2023.10.08-17.26.43:398][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010879s)
+[2023.10.08-17.26.43:398][895]LogAudio: Display: Audio Device (ID: 36) registered with world 'FirstPersonMap'.
+[2023.10.08-17.26.43:398][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.26.43:398][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.26.43:399][895]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.26.43:400][895]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.26.43:400][895]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.26.43:400][895]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.26.43:400][895]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.26.43:404][895]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.26.43:404][895]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 290 ms)
+[2023.10.08-17.26.43:404][895]LogPlayLevel: PIE: World Init took: (0.006082s)
+[2023.10.08-17.26.43:404][895]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.26.43:409][895]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.26.43
+[2023.10.08-17.26.43:409][895]LogWorld: Bringing up level for play took: 0.005084
+[2023.10.08-17.26.43:415][895]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.08-17.26.43:415][895]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.08-17.26.43:416][895]LogLoad: Took 0.121085 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.08-17.26.44:303][919]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.26.44:526][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.26.44:527][924]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.26.44:529][924]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.26.44:553][924]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.26.44:556][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.26.44:557][924]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.26.44:565][924]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.26.44:575][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.26.44:613][924]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2023.10.08-17.26.44:613][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.10.08-17.26.44:617][924]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.10.08-17.26.44:633][924]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.10.08-17.26.44:666][925]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.10.08-17.27.02:891][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.27.03:049][136]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.27.03:050][136]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame649948024BA430A2020FFFAFB981FE51.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.27.03:071][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 20.6 sec)
+[2023.10.08-17.27.03:074][136]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.27.03:074][136]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.27.05:074][252]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.27.05:085][252]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.27.05:085][252]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.27.05:090][252]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 5 ms (total: 177 ms)
+[2023.10.08-17.27.05:090][252]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.27.05:095][252]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.27.05:261][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.10.08-17.27.05:265][252]LogPlayLevel: PlayLevel: Blueprint regeneration took 174 ms (1 blueprints)
+[2023.10.08-17.27.05:265][252]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:27:05)
+[2023.10.08-17.27.05:267][252]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.27.05:275][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009124s)
+[2023.10.08-17.27.05:275][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009196s)
+[2023.10.08-17.27.05:304][252]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2023.10.08-17.27.05:305][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.27.05:307][252]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.27.05:307][252]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.27.05:308][252]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.27.05:308][252]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.27.05:308][252]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.27.05:308][252]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.27.05:310][252]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.27.05:310][252]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 293 ms)
+[2023.10.08-17.27.05:310][252]LogPlayLevel: PIE: World Init took: (0.004004s)
+[2023.10.08-17.27.05:310][252]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.10.08-17.27.05:310][252]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.27.05:310][252]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.27.05:310][252]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.27.05:310][252]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.27.05:310][252]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.27.05:310][252]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.27.05:310][252]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.27.05:310][252]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.27.05:310][252]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.27.05:310][252]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.27.05:310][252]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.27.05:315][252]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.27.05:370][252]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.27.05:371][252]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.27.05:371][252]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.27.05:371][252]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.27.05:378][252]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.10.08-17.27.05:378][252]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.10.08-17.27.05:381][252]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.10.08-17.27.05:382][252]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.10.08-17.27.05:382][252]LogInit: FAudioDevice initialized with ID 37.
+[2023.10.08-17.27.05:382][252]LogAudio: Display: Audio Device (ID: 37) registered with world 'FirstPersonMap'.
+[2023.10.08-17.27.05:382][252]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2023.10.08-17.27.05:484][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.27.05:485][252]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.27.05:492][252]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.27.05
+[2023.10.08-17.27.05:492][252]LogWorld: Bringing up level for play took: 0.007709
+[2023.10.08-17.27.05:497][252]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.10.08-17.27.05:502][252]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.27.05:504][252]PIE: Server logged in
+[2023.10.08-17.27.05:506][252]PIE: Play in editor total start time 0,422 seconds.
+[2023.10.08-17.27.05:637][252]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.27.06:461][257]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.07:335][269]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.08:341][293]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.09:341][318]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.10:329][345]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.11:333][372]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.12:069][393]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.27.12:069][393]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.27.12:069][393]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.27.12:341][401]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.13:347][431]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.14:355][461]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.14:883][477]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.27.14:883][477]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.27.14:883][477]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.27.14:884][477]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.27.14:885][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.27.14:885][477]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.27.14:925][477]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-17.27.14:930][477]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2023.10.08-17.27.14:935][477]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.27.14:943][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008723s)
+[2023.10.08-17.27.14:944][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008809s)
+[2023.10.08-17.27.14:944][477]LogAudio: Display: Audio Device (ID: 37) registered with world 'FirstPersonMap'.
+[2023.10.08-17.27.14:944][477]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.27.14:944][477]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.27.14:945][477]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.27.14:947][477]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.27.14:948][477]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.27.14:948][477]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.27.14:948][477]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.27.14:952][477]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.27.14:952][477]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 297 ms)
+[2023.10.08-17.27.14:952][477]LogPlayLevel: PIE: World Init took: (0.008404s)
+[2023.10.08-17.27.14:952][477]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.27.14:956][477]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.27.14
+[2023.10.08-17.27.14:956][477]LogWorld: Bringing up level for play took: 0.003483
+[2023.10.08-17.27.14:961][477]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.08-17.27.14:961][477]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.08-17.27.14:962][477]LogLoad: Took 0.078583 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.08-17.27.15:902][496]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.16:894][525]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.17:893][528]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.18:893][531]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.19:895][534]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.20:895][537]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.21:894][540]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.22:895][543]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.23:894][546]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.24:895][549]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.25:895][552]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.26:896][555]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.27:895][558]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.28:895][561]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.29:896][564]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.30:895][567]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.31:896][570]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.32:895][573]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.33:895][576]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.34:895][579]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.35:895][582]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.36:895][585]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.37:895][588]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.38:898][591]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.39:897][594]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.40:900][607]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.41:907][636]LogBlueprintUserMessages: [GM_TargetGame_C_0] Timer
+[2023.10.08-17.27.42:326][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.27.42:326][647]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.27.42:327][647]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.27.42:356][647]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.27.42:357][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.27.42:358][647]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.27.42:364][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.27.42:376][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.27.42:435][647]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2023.10.08-17.27.42:436][647]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.10.08-17.27.42:440][647]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.10.08-17.27.42:457][647]LogUObjectHash: Compacting FUObjectHashTables data took   6.89ms
+[2023.10.08-17.27.42:613][648]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.10.08-17.28.06:689][360]BlueprintLog: New page: Compile GM_TargetGame
+[2023.10.08-17.28.06:761][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2023.10.08-17.28.10:003][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.28.10:168][522]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.28.10:168][522]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame4AB4679B413523710827F086394B9F65.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.28.10:190][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 20.8 sec)
+[2023.10.08-17.28.10:191][522]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.28.10:191][522]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.28.31:615][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.28.31:786][160]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.28.31:787][160]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame5E63D83E4792657FE5BEDE9106DF4451.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.28.31:807][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 21.0 sec)
+[2023.10.08-17.28.31:809][160]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.28.31:809][160]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.28.36:610][432]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.28.36:784][432]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.28.36:785][432]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameCA9305E7439391C3A350759C0FB5C9CA.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.28.36:805][432]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 21.2 sec)
+[2023.10.08-17.28.36:808][432]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.28.36:808][432]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.29.02:222][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.29.02:370][ 28]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.29.02:371][ 28]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame97BB72934461C848221E43A5D1A1F5D2.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.29.02:391][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 21.4 sec)
+[2023.10.08-17.29.02:394][ 28]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.29.02:394][ 28]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.29.04:298][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.29.04:466][142]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.29.04:466][142]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameB08E274C404A54560679D9983347679A.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.29.04:490][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 21.6 sec)
+[2023.10.08-17.29.04:493][142]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.29.04:493][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.29.05:373][194]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.29.05:380][194]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.29.05:380][194]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.29.05:385][194]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 182 ms)
+[2023.10.08-17.29.05:386][194]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.29.05:390][194]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.29.05:547][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.10.08-17.29.05:549][194]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2023.10.08-17.29.05:549][194]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:29:05)
+[2023.10.08-17.29.05:550][194]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.29.05:559][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008453s)
+[2023.10.08-17.29.05:559][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008512s)
+[2023.10.08-17.29.05:586][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.10.08-17.29.05:588][194]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.29.05:588][194]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.29.05:589][194]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.29.05:590][194]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.29.05:590][194]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.29.05:590][194]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.29.05:590][194]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.29.05:592][194]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.29.05:592][194]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 300 ms)
+[2023.10.08-17.29.05:592][194]LogPlayLevel: PIE: World Init took: (0.004157s)
+[2023.10.08-17.29.05:592][194]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.10.08-17.29.05:592][194]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.29.05:592][194]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.29.05:592][194]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.29.05:592][194]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.29.05:593][194]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.29.05:593][194]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.29.05:593][194]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.29.05:593][194]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.29.05:593][194]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.29.05:593][194]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.29.05:593][194]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.29.05:596][194]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.29.05:651][194]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.29.05:651][194]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.29.05:651][194]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.29.05:651][194]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.29.05:654][194]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.10.08-17.29.05:654][194]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.10.08-17.29.05:656][194]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.10.08-17.29.05:656][194]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.10.08-17.29.05:656][194]LogInit: FAudioDevice initialized with ID 38.
+[2023.10.08-17.29.05:656][194]LogAudio: Display: Audio Device (ID: 38) registered with world 'FirstPersonMap'.
+[2023.10.08-17.29.05:656][194]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2023.10.08-17.29.05:761][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.29.05:761][194]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.29.05:771][194]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.29.05
+[2023.10.08-17.29.05:771][194]LogWorld: Bringing up level for play took: 0.009403
+[2023.10.08-17.29.05:774][194]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.10.08-17.29.05:779][194]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.29.05:780][194]PIE: Server logged in
+[2023.10.08-17.29.05:781][194]PIE: Play in editor total start time 0,401 seconds.
+[2023.10.08-17.29.05:925][194]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.29.07:113][198]LogBlueprintUserMessages: [GM_TargetGame_C_0] 29
+[2023.10.08-17.29.07:906][202]LogBlueprintUserMessages: [GM_TargetGame_C_0] 28
+[2023.10.08-17.29.08:647][208]LogBlueprintUserMessages: [GM_TargetGame_C_0] 27
+[2023.10.08-17.29.09:636][234]LogBlueprintUserMessages: [GM_TargetGame_C_0] 26
+[2023.10.08-17.29.10:652][261]LogBlueprintUserMessages: [GM_TargetGame_C_0] 25
+[2023.10.08-17.29.11:642][287]LogBlueprintUserMessages: [GM_TargetGame_C_0] 24
+[2023.10.08-17.29.12:442][308]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.29.12:442][308]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.29.12:442][308]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.29.12:627][313]LogBlueprintUserMessages: [GM_TargetGame_C_0] 23
+[2023.10.08-17.29.13:641][340]LogBlueprintUserMessages: [GM_TargetGame_C_0] 22
+[2023.10.08-17.29.14:631][366]LogBlueprintUserMessages: [GM_TargetGame_C_0] 21
+[2023.10.08-17.29.15:627][393]LogBlueprintUserMessages: [GM_TargetGame_C_0] 20
+[2023.10.08-17.29.16:644][421]LogBlueprintUserMessages: [GM_TargetGame_C_0] 19
+[2023.10.08-17.29.17:633][448]LogBlueprintUserMessages: [GM_TargetGame_C_0] 18
+[2023.10.08-17.29.18:651][476]LogBlueprintUserMessages: [GM_TargetGame_C_0] 17
+[2023.10.08-17.29.19:413][497]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.29.19:413][497]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.29.19:413][497]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.29.19:414][497]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.29.19:414][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.29.19:415][497]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.29.19:457][497]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-17.29.19:462][497]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.10.08-17.29.19:467][497]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.29.19:478][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011001s)
+[2023.10.08-17.29.19:478][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011099s)
+[2023.10.08-17.29.19:478][497]LogAudio: Display: Audio Device (ID: 38) registered with world 'FirstPersonMap'.
+[2023.10.08-17.29.19:478][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.29.19:478][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.29.19:479][497]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.29.19:483][497]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.29.19:483][497]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.29.19:483][497]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.29.19:483][497]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.29.19:488][497]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.29.19:488][497]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 304 ms)
+[2023.10.08-17.29.19:488][497]LogPlayLevel: PIE: World Init took: (0.009151s)
+[2023.10.08-17.29.19:488][497]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.29.19:491][497]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.29.19
+[2023.10.08-17.29.19:491][497]LogWorld: Bringing up level for play took: 0.003807
+[2023.10.08-17.29.19:496][497]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.08-17.29.19:496][497]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.08-17.29.19:497][497]LogLoad: Took 0.083631 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.08-17.29.20:448][523]LogBlueprintUserMessages: [GM_TargetGame_C_0] 29
+[2023.10.08-17.29.21:444][550]LogBlueprintUserMessages: [GM_TargetGame_C_0] 28
+[2023.10.08-17.29.21:802][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.29.21:802][559]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.29.21:804][559]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.29.21:843][559]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.29.21:844][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.29.21:844][559]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.29.21:852][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.29.21:862][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.29.21:900][559]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2023.10.08-17.29.21:901][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.10.08-17.29.21:907][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.10.08-17.29.21:924][559]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.10.08-17.29.21:949][560]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.10.08-17.29.57:305][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.29.57:416][ 45]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.29.57:416][ 45]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame768C607B41432A7BF88BC0B7C0DA105F.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.29.57:430][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 21.7 sec)
+[2023.10.08-17.29.57:434][ 45]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.29.57:434][ 45]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.30.32:409][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.30.32:598][110]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.30.32:599][110]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UI76D983264439F52DA0838D8CB14E63DA.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.30.32:621][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 21.9 sec)
+[2023.10.08-17.30.32:623][110]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.30.32:623][110]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.31.20:523][431]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.31.20:683][431]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.31.20:684][431]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UIE64BAB21418D1ADAE6F91182F80FBF3A.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.31.20:706][431]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 22.1 sec)
+[2023.10.08-17.31.20:708][431]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.31.20:708][431]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.31.33:393][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.31.33:569][939]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.31.33:570][939]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UI661C4E604D9EFBDE1A79C7B8A50C9E22.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.31.33:595][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 201 ms (total: 22.3 sec)
+[2023.10.08-17.31.33:601][939]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.31.33:601][939]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.31.37:697][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.31.37:936][173]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.31.37:937][173]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UI579056D545FFB87162FF73AFBEFFF294.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.31.37:951][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 253 ms (total: 22.5 sec)
+[2023.10.08-17.31.37:953][173]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.31.37:953][173]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.31.56:059][118]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.31.56:213][118]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.31.56:213][118]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UIA0B05D6843C6E5960A0CA5A6C1B153DD.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.31.56:232][118]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 22.7 sec)
+[2023.10.08-17.31.56:234][118]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.31.56:234][118]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.32.35:616][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.32.35:807][565]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.32.35:808][565]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UIAE06BE5B41D3D750ABB903A8E08E5380.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.32.35:829][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 22.9 sec)
+[2023.10.08-17.32.35:835][565]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.32.35:835][565]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.32.55:813][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.32.55:963][332]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.32.55:964][332]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UI8FA46EA4448A7C8D3F01CAA6AE9116A8.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.32.55:983][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 23.1 sec)
+[2023.10.08-17.32.55:985][332]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.32.55:986][332]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.33.07:395][791]LogSlate: Took 0.001246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.10.08-17.33.24:736][752]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UTextBlock::SetText' [Élément introuvable.]
+[2023.10.08-17.33.38:978][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.33.39:161][558]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.33.39:162][558]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UI00006E4B4F4E222DF9AAB3BCA44253EE.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.33.39:185][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 23.3 sec)
+[2023.10.08-17.33.39:189][558]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.33.39:189][558]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.33.55:332][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.33.55:478][202]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.33.55:478][202]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UI4E6AC4A84F06F18F5C55A1937DF1EBF5.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.33.55:499][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 23.5 sec)
+[2023.10.08-17.33.55:502][202]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.33.55:502][202]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.35.04:452][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.35.04:601][997]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.35.04:602][997]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UI0E47C02B466C9637D767BC93ACD13DDF.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.35.04:623][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 23.6 sec)
+[2023.10.08-17.35.04:625][997]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.35.04:625][997]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.35.26:172][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.35.26:329][297]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_UI
+[2023.10.08-17.35.26:330][297]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_UIBCF446B34581A97C3C1FB891985BAA8A.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset'
+[2023.10.08-17.35.26:350][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 23.8 sec)
+[2023.10.08-17.35.26:352][297]AssetCheck: New page: Asset Save: WBP_UI
+[2023.10.08-17.35.26:353][297]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_UI.WBP_UI
+[2023.10.08-17.35.30:828][548]BlueprintLog: New page: Compile WBP_UI
+[2023.10.08-17.35.30:894][548]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.10.08-17.36.01:616][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.36.01:792][298]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.36.01:793][298]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame1F35532B4427670A8EAC18BA87904D0A.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.36.01:815][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 24.0 sec)
+[2023.10.08-17.36.01:818][298]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.36.01:818][298]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.36.03:298][385]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.36.03:308][385]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.36.03:308][385]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.36.03:313][385]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 187 ms)
+[2023.10.08-17.36.03:314][385]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.36.03:327][385]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.36.03:544][385]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2023.10.08-17.36.03:550][385]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (1 blueprints)
+[2023.10.08-17.36.03:550][385]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:36:03)
+[2023.10.08-17.36.03:551][385]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.36.03:560][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009070s)
+[2023.10.08-17.36.03:560][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009137s)
+[2023.10.08-17.36.03:588][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.10.08-17.36.03:590][385]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.36.03:590][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.36.03:591][385]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.36.03:592][385]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.36.03:592][385]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.36.03:592][385]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.36.03:592][385]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.36.03:595][385]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.36.03:595][385]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 306 ms)
+[2023.10.08-17.36.03:595][385]LogPlayLevel: PIE: World Init took: (0.004153s)
+[2023.10.08-17.36.03:595][385]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.10.08-17.36.03:595][385]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.36.03:595][385]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.36.03:595][385]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.36.03:595][385]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.36.03:595][385]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.36.03:595][385]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.36.03:595][385]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.36.03:595][385]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.36.03:596][385]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.36.03:596][385]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.36.03:596][385]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.36.03:599][385]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.36.03:656][385]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.36.03:657][385]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.36.03:657][385]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.36.03:657][385]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.36.03:659][385]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.10.08-17.36.03:660][385]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.10.08-17.36.03:662][385]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.10.08-17.36.03:662][385]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.10.08-17.36.03:662][385]LogInit: FAudioDevice initialized with ID 39.
+[2023.10.08-17.36.03:662][385]LogAudio: Display: Audio Device (ID: 39) registered with world 'FirstPersonMap'.
+[2023.10.08-17.36.03:662][385]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2023.10.08-17.36.03:768][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.36.03:769][385]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.36.03:779][385]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.36.03
+[2023.10.08-17.36.03:779][385]LogWorld: Bringing up level for play took: 0.010748
+[2023.10.08-17.36.03:782][385]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.10.08-17.36.03:789][385]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.36.03:791][385]PIE: Server logged in
+[2023.10.08-17.36.03:792][385]PIE: Play in editor total start time 0,484 seconds.
+[2023.10.08-17.36.03:956][385]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.36.10:567][485]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.36.10:567][485]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.36.10:567][485]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.36.12:464][534]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.36.12:464][534]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.36.12:464][534]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.36.12:465][534]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.36.12:466][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.36.12:466][534]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.36.12:514][534]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-17.36.12:519][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.10.08-17.36.12:525][534]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.36.12:534][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008870s)
+[2023.10.08-17.36.12:534][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008953s)
+[2023.10.08-17.36.12:534][534]LogAudio: Display: Audio Device (ID: 39) registered with world 'FirstPersonMap'.
+[2023.10.08-17.36.12:534][534]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.36.12:534][534]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.36.12:534][534]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.36.12:535][534]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.36.12:535][534]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.36.12:535][534]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.36.12:535][534]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.36.12:538][534]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.36.12:538][534]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 309 ms)
+[2023.10.08-17.36.12:538][534]LogPlayLevel: PIE: World Init took: (0.004799s)
+[2023.10.08-17.36.12:538][534]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.36.12:546][534]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.36.12
+[2023.10.08-17.36.12:547][534]LogWorld: Bringing up level for play took: 0.006352
+[2023.10.08-17.36.12:551][534]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.08-17.36.12:551][534]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.08-17.36.12:552][534]LogLoad: Took 0.087600 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.08-17.36.14:136][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.36.14:136][575]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.36.14:137][575]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.36.14:174][575]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.36.14:176][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.36.14:176][575]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.36.14:185][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.36.14:193][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.36.14:234][575]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2023.10.08-17.36.14:234][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.10.08-17.36.14:238][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.10.08-17.36.14:255][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.10.08-17.36.14:287][576]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.10.08-17.37.36:521][227]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.37.36:695][227]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.37.36:696][227]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame98F0DF244837DCA2C31AF3AF997867AB.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.37.36:720][227]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 24.2 sec)
+[2023.10.08-17.37.36:724][227]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.37.36:724][227]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.38.05:174][548]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.38.05:346][548]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.38.05:347][548]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameEB2750B54889F06721D5C0B041B2029B.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.38.05:369][548]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 24.4 sec)
+[2023.10.08-17.38.05:373][548]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.38.05:373][548]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.38.30:223][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.38.30:393][641]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.38.30:394][641]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame761B9636483F0982A0C6C9AB790326C5.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.38.30:417][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 193 ms (total: 24.6 sec)
+[2023.10.08-17.38.30:420][641]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.38.30:420][641]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.38.44:557][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.38.44:729][ 68]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.38.44:730][ 68]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameB35D08BB49CE9022DF16659A13115CE7.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.38.44:751][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 24.8 sec)
+[2023.10.08-17.38.44:755][ 68]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.38.44:755][ 68]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.39.40:410][208]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.39.40:565][208]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.39.40:566][208]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame003439BA42ECA76CD5DC1981EFA608DB.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.39.40:588][208]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 25.0 sec)
+[2023.10.08-17.39.40:592][208]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.39.40:592][208]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.39.45:011][299]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::EqualEqual_IntInt' [Élément introuvable.]
+[2023.10.08-17.39.52:207][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.39.52:365][648]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.39.52:365][648]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame2D5098604BF8711C26B2C6BA955635CE.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.39.52:385][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 25.2 sec)
+[2023.10.08-17.39.52:388][648]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.39.52:388][648]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.39.56:373][875]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.39.56:531][875]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.39.56:532][875]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameDA35D56C449D8E04196BDEA2C30A0CA5.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.39.56:554][875]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 25.3 sec)
+[2023.10.08-17.39.56:560][875]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.39.56:560][875]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.39.57:984][960]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.39.57:995][960]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.39.57:995][960]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.39.58:002][960]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 7 ms (total: 194 ms)
+[2023.10.08-17.39.58:003][960]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.39.58:006][960]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.39.58:186][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.10.08-17.39.58:192][960]LogPlayLevel: PlayLevel: Blueprint regeneration took 190 ms (1 blueprints)
+[2023.10.08-17.39.58:192][960]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:39:58)
+[2023.10.08-17.39.58:193][960]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.39.58:203][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009190s)
+[2023.10.08-17.39.58:203][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009253s)
+[2023.10.08-17.39.58:226][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.10.08-17.39.58:228][960]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.39.58:228][960]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.39.58:229][960]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.39.58:229][960]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.39.58:230][960]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.39.58:230][960]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.39.58:230][960]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.39.58:232][960]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.39.58:232][960]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 312 ms)
+[2023.10.08-17.39.58:232][960]LogPlayLevel: PIE: World Init took: (0.004232s)
+[2023.10.08-17.39.58:232][960]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.10.08-17.39.58:232][960]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.39.58:232][960]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.39.58:232][960]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.39.58:232][960]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.39.58:232][960]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.39.58:232][960]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.39.58:232][960]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.39.58:232][960]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.39.58:233][960]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.39.58:233][960]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.39.58:233][960]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.39.58:237][960]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.39.58:294][960]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.39.58:294][960]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.39.58:294][960]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.39.58:294][960]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.39.58:296][960]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.10.08-17.39.58:296][960]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.10.08-17.39.58:298][960]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.10.08-17.39.58:298][960]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.10.08-17.39.58:298][960]LogInit: FAudioDevice initialized with ID 40.
+[2023.10.08-17.39.58:298][960]LogAudio: Display: Audio Device (ID: 40) registered with world 'FirstPersonMap'.
+[2023.10.08-17.39.58:298][960]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2023.10.08-17.39.58:410][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.39.58:411][960]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.39.58:419][960]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.39.58
+[2023.10.08-17.39.58:420][960]LogWorld: Bringing up level for play took: 0.009297
+[2023.10.08-17.39.58:423][960]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.10.08-17.39.58:429][960]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.39.58:431][960]PIE: Server logged in
+[2023.10.08-17.39.58:433][960]PIE: Play in editor total start time 0,438 seconds.
+[2023.10.08-17.39.58:582][960]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.40.04:206][ 47]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.40.04:206][ 47]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.40.04:206][ 47]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.40.04:811][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.40.04:811][ 62]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.40.04:813][ 62]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.40.04:847][ 62]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.40.04:851][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.40.04:851][ 62]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.40.04:862][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.40.04:875][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.40.04:923][ 62]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2023.10.08-17.40.04:923][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.10.08-17.40.04:926][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.10.08-17.40.04:942][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.10.08-17.40.04:975][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.10.08-17.40.36:284][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.40.36:471][217]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.40.36:472][217]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameF6CB8D4648CD1392E41AFFB79E8CEA6B.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.40.36:493][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 25.5 sec)
+[2023.10.08-17.40.36:496][217]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.40.36:496][217]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.40.54:265][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.40.54:433][645]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.40.54:434][645]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameB3F11A66441A40F4E17FD380497CA5F7.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.40.54:454][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 25.7 sec)
+[2023.10.08-17.40.54:456][645]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.40.54:456][645]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.41.22:078][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.41.22:243][515]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.41.22:244][515]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameA4EC75CF49840CC14A6D97A8304FA76D.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.41.22:265][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 25.9 sec)
+[2023.10.08-17.41.22:269][515]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.41.22:269][515]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.41.58:172][915]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.41.58:311][915]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.41.58:311][915]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame1875FF29461BE36CD7ED14A0FB879048.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.41.58:327][915]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 26.1 sec)
+[2023.10.08-17.41.58:329][915]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.41.58:329][915]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.42.25:028][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.42.25:200][204]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.42.25:201][204]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame7CD69E3D46412B31B71D9AA1E98DBE63.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.42.25:222][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 193 ms (total: 26.3 sec)
+[2023.10.08-17.42.25:226][204]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.42.25:226][204]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.43.19:621][ 97]LogEditorTransaction: Undo Add Node
+[2023.10.08-17.43.33:132][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.43.33:303][801]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.43.33:304][801]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame26FD52FD446A974B0DC9FFABBE8378DD.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.43.33:328][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 26.5 sec)
+[2023.10.08-17.43.33:332][801]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.43.33:332][801]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.43.34:847][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.43.35:024][872]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.43.35:025][872]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame5688293740A9269FF4960F99D6D49443.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.43.35:045][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 26.7 sec)
+[2023.10.08-17.43.35:051][872]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.43.35:051][872]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.43.58:464][417]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.43.58:478][417]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.43.58:478][417]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.43.58:481][417]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 198 ms)
+[2023.10.08-17.43.58:481][417]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.43.58:486][417]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.43.58:674][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2023.10.08-17.43.58:679][417]LogPlayLevel: PlayLevel: Blueprint regeneration took 197 ms (1 blueprints)
+[2023.10.08-17.43.58:679][417]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:43:58)
+[2023.10.08-17.43.58:679][417]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.43.58:689][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008960s)
+[2023.10.08-17.43.58:689][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009023s)
+[2023.10.08-17.43.58:713][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.10.08-17.43.58:715][417]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.43.58:715][417]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.43.58:716][417]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.43.58:717][417]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.43.58:717][417]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.43.58:717][417]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.43.58:717][417]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.43.58:719][417]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.43.58:719][417]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 314 ms)
+[2023.10.08-17.43.58:719][417]LogPlayLevel: PIE: World Init took: (0.004599s)
+[2023.10.08-17.43.58:719][417]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.10.08-17.43.58:719][417]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.43.58:719][417]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.43.58:719][417]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.43.58:719][417]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.43.58:719][417]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.43.58:719][417]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.43.58:719][417]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.43.58:719][417]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.43.58:721][417]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.43.58:721][417]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.43.58:721][417]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.43.58:723][417]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.43.58:780][417]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.43.58:781][417]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.43.58:781][417]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.43.58:781][417]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.43.58:783][417]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2023.10.08-17.43.58:783][417]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2023.10.08-17.43.58:786][417]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2023.10.08-17.43.58:786][417]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2023.10.08-17.43.58:786][417]LogInit: FAudioDevice initialized with ID 41.
+[2023.10.08-17.43.58:786][417]LogAudio: Display: Audio Device (ID: 41) registered with world 'FirstPersonMap'.
+[2023.10.08-17.43.58:786][417]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2023.10.08-17.43.58:877][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.43.58:878][417]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.43.58:887][417]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.43.58
+[2023.10.08-17.43.58:887][417]LogWorld: Bringing up level for play took: 0.009665
+[2023.10.08-17.43.58:891][417]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.10.08-17.43.58:896][417]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.43.58:899][417]PIE: Server logged in
+[2023.10.08-17.43.58:900][417]PIE: Play in editor total start time 0,422 seconds.
+[2023.10.08-17.43.59:094][417]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.44.05:978][542]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.44.05:978][542]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.44.05:978][542]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.44.08:903][620]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.44.08:903][620]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.44.08:904][620]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.44.08:920][620]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.44.08:923][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.44.08:925][620]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.44.08:932][620]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.44.08:948][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.44.08:996][620]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2023.10.08-17.44.08:996][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.10.08-17.44.08:998][620]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.10.08-17.44.09:012][620]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2023.10.08-17.44.09:046][621]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.10.08-17.44.20:462][295]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.44.20:787][295]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.44.20:788][295]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame7C43DE374AD04099959609A694501744.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.44.20:809][295]LogFileHelpers: InternalPromptForCheckoutAndSave took 347 ms (total: 27.0 sec)
+[2023.10.08-17.44.20:813][295]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.44.20:813][295]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.44.22:791][409]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.44.22:800][409]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.44.22:800][409]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.44.22:805][409]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 203 ms)
+[2023.10.08-17.44.22:805][409]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.44.22:809][409]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.44.22:991][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2023.10.08-17.44.22:995][409]LogPlayLevel: PlayLevel: Blueprint regeneration took 189 ms (1 blueprints)
+[2023.10.08-17.44.22:995][409]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:44:22)
+[2023.10.08-17.44.22:997][409]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.44.23:005][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008751s)
+[2023.10.08-17.44.23:005][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008813s)
+[2023.10.08-17.44.23:033][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.10.08-17.44.23:035][409]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.44.23:035][409]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.44.23:036][409]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.44.23:037][409]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.44.23:037][409]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.44.23:037][409]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.44.23:037][409]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.44.23:039][409]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.44.23:039][409]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 316 ms)
+[2023.10.08-17.44.23:039][409]LogPlayLevel: PIE: World Init took: (0.004097s)
+[2023.10.08-17.44.23:039][409]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.10.08-17.44.23:039][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.44.23:039][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.44.23:039][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.44.23:039][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.44.23:039][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.44.23:039][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.44.23:039][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.44.23:040][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.44.23:040][409]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.44.23:041][409]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.44.23:041][409]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.44.23:043][409]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.44.23:098][409]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.44.23:099][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.44.23:099][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.44.23:099][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.44.23:100][409]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2023.10.08-17.44.23:100][409]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2023.10.08-17.44.23:103][409]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2023.10.08-17.44.23:103][409]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2023.10.08-17.44.23:103][409]LogInit: FAudioDevice initialized with ID 42.
+[2023.10.08-17.44.23:104][409]LogAudio: Display: Audio Device (ID: 42) registered with world 'FirstPersonMap'.
+[2023.10.08-17.44.23:104][409]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2023.10.08-17.44.23:212][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.44.23:212][409]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.44.23:222][409]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.44.23
+[2023.10.08-17.44.23:222][409]LogWorld: Bringing up level for play took: 0.009230
+[2023.10.08-17.44.23:225][409]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.10.08-17.44.23:230][409]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.44.23:232][409]PIE: Server logged in
+[2023.10.08-17.44.23:235][409]PIE: Play in editor total start time 0,434 seconds.
+[2023.10.08-17.44.23:428][409]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.44.27:279][482]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.44.27:279][482]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.44.27:279][482]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.44.31:574][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.44.31:574][597]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.44.31:575][597]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.44.31:615][597]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.44.31:618][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.44.31:618][597]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.44.31:626][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.44.31:633][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.44.31:675][597]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2023.10.08-17.44.31:675][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.10.08-17.44.31:678][597]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.10.08-17.44.31:693][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.10.08-17.44.31:725][598]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.10.08-17.45.06:765][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.45.06:948][653]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.45.06:949][653]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameDB81C8A44CAAC4D5BCE3D8931B72B8B1.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.45.06:974][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 27.2 sec)
+[2023.10.08-17.45.06:977][653]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.45.06:977][653]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.45.08:981][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.45.09:164][764]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.45.09:165][764]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameCD341CE9420D92C4A3B9C2A006BF01CF.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.45.09:186][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 27.4 sec)
+[2023.10.08-17.45.09:189][764]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.45.09:189][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.45.52:541][622]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UWidgetBlueprintLibrary::SetInputMode_UIOnlyEx' [Le module spécifié est introuvable.]
+[2023.10.08-17.45.55:237][756]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UGameplayStatics::GetPlayerController' [Le module spécifié est introuvable.]
+[2023.10.08-17.47.13:747][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.47.13:895][379]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.47.13:896][379]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen903CB1AE40C990A8D1FDB799331971E5.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.47.13:917][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 27.6 sec)
+[2023.10.08-17.47.13:921][379]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.47.13:921][379]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.47.14:738][428]BlueprintLog: New page: Compile WBP_EndScreen
+[2023.10.08-17.47.14:811][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.10.08-17.47.17:094][547]LogSlate: Took 0.000977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.08-17.47.18:403][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2023.10.08-17.47.20:881][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.10.08-17.47.23:342][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.10.08-17.47.23:787][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.10.08-17.47.23:950][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.10.08-17.47.24:086][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.10.08-17.48.08:582][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.48.08:772][117]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.48.08:773][117]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen614871DE44C7BE44C3F82E9EC8A9E4A7.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.48.08:796][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 27.8 sec)
+[2023.10.08-17.48.08:803][117]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.48.08:803][117]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.48.22:878][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.48.23:046][727]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.48.23:047][727]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen99CEDD70431FD96096FCB4B3D19D0E59.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.48.23:067][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 28.0 sec)
+[2023.10.08-17.48.23:074][727]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.48.23:074][727]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.48.42:687][337]BlueprintLog: New page: Compile WBP_EndScreen
+[2023.10.08-17.48.42:744][337]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.10.08-17.48.43:047][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.48.43:193][337]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.48.43:194][337]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen9D279C1047CFE65011753886B374B363.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.48.43:214][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 28.2 sec)
+[2023.10.08-17.48.43:279][337]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.48.43:279][337]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.49.52:611][734]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.49.52:776][734]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.49.52:777][734]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen090776584B0B274964E86F83DB9D0EC1.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.49.52:797][734]LogFileHelpers: InternalPromptForCheckoutAndSave took 185 ms (total: 28.4 sec)
+[2023.10.08-17.49.52:799][734]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.49.52:799][734]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.49.53:772][792]BlueprintLog: New page: Compile WBP_EndScreen
+[2023.10.08-17.49.53:836][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2023.10.08-17.50.21:110][639]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.50.21:261][639]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.50.21:262][639]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen346ADB474E4EF9FECB4BF28400203433.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.50.21:283][639]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 28.5 sec)
+[2023.10.08-17.50.21:285][639]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.50.21:285][639]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.50.21:841][668]BlueprintLog: New page: Compile WBP_EndScreen
+[2023.10.08-17.50.21:904][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.10.08-17.51.11:957][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.51.12:074][591]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.51.12:075][591]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreenBD58EDE04E23B23B3B9D89882B421659.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.51.12:091][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 28.7 sec)
+[2023.10.08-17.51.12:092][591]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.51.12:093][591]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.51.16:566][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.51.16:727][810]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.51.16:729][810]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen1303FD2C43C9F002373BFD89FA2F906E.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.51.16:747][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 28.8 sec)
+[2023.10.08-17.51.16:752][810]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.51.16:752][810]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.52.01:329][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.52.01:483][558]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.52.01:485][558]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreen94D6B8C04F2B2A753899E48CEB0E8678.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.52.01:506][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 29.0 sec)
+[2023.10.08-17.52.01:509][558]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.52.01:509][558]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.52.09:795][691]LogBlueprint: Warning: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\WBP_EndScreen.uasset: [Compiler] Variable lostGame? is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2023.10.08-17.52.11:243][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.52.11:396][765]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/WBP_EndScreen
+[2023.10.08-17.52.11:397][765]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/WBP_EndScreenE9ED3B6C4FC8AA2DE2A3A9BCA24B53F7.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset'
+[2023.10.08-17.52.11:420][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 29.2 sec)
+[2023.10.08-17.52.11:423][765]AssetCheck: New page: Asset Save: WBP_EndScreen
+[2023.10.08-17.52.11:423][765]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/FirstPerson/Blueprints/WBP_EndScreen.WBP_EndScreen
+[2023.10.08-17.52.42:556][497]BlueprintLog: New page: Compile WBP_EndScreen
+[2023.10.08-17.52.42:626][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.10.08-17.52.45:744][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.52.45:909][656]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.52.45:910][656]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameBF30A02F49559F63782B19BEDC87789A.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.52.45:935][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 29.4 sec)
+[2023.10.08-17.52.45:942][656]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.52.45:942][656]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.53.14:377][984]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2023.10.08-17.53.14:381][984]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.034
+[2023.10.08-17.53.14:381][984]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/GM_TargetGame] ([2] browsable assets)...
+[2023.10.08-17.53.14:381][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/GM_TargetGame]
+[2023.10.08-17.53.14:412][984]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/GM_TargetGame_Auto4
+[2023.10.08-17.53.14:412][984]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame_Auto4D00158CE4AAF8D3FC7AD2F8B13541D60.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/Autosaves/Game/FirstPerson/Blueprints/GM_TargetGame_Auto4.uasset'
+[2023.10.08-17.53.14:415][984]LogFileHelpers: Auto-saving content packages took 0.034
+[2023.10.08-17.53.30:012][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.53.30:193][863]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.53.30:194][863]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame64303A504C965084967E849C4D22769C.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.53.30:214][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 29.6 sec)
+[2023.10.08-17.53.30:217][863]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.53.30:217][863]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.53.38:679][112]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.53.38:690][112]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.53.38:690][112]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.53.38:693][112]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 206 ms)
+[2023.10.08-17.53.38:693][112]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.53.38:710][112]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.53.38:947][112]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.10.08-17.53.38:951][112]LogPlayLevel: PlayLevel: Blueprint regeneration took 255 ms (1 blueprints)
+[2023.10.08-17.53.38:951][112]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:53:38)
+[2023.10.08-17.53.38:951][112]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.53.38:959][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008581s)
+[2023.10.08-17.53.38:959][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008639s)
+[2023.10.08-17.53.38:986][112]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2023.10.08-17.53.38:987][112]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.53.38:988][112]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.53.38:988][112]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.53.38:989][112]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.53.38:989][112]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.53.38:989][112]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.53.38:989][112]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.53.38:991][112]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.53.38:991][112]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 319 ms)
+[2023.10.08-17.53.38:992][112]LogPlayLevel: PIE: World Init took: (0.004294s)
+[2023.10.08-17.53.38:992][112]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.10.08-17.53.38:992][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.53.38:992][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.53.38:992][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.53.38:992][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.53.38:992][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.53.38:992][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.53.38:992][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.53.38:992][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.53.38:993][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.53.38:993][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.53.38:993][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.53.38:996][112]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.53.39:051][112]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.53.39:051][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.53.39:052][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.53.39:052][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.53.39:054][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2023.10.08-17.53.39:054][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2023.10.08-17.53.39:058][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2023.10.08-17.53.39:058][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2023.10.08-17.53.39:058][112]LogInit: FAudioDevice initialized with ID 43.
+[2023.10.08-17.53.39:058][112]LogAudio: Display: Audio Device (ID: 43) registered with world 'FirstPersonMap'.
+[2023.10.08-17.53.39:058][112]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2023.10.08-17.53.39:141][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.53.39:142][112]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.53.39:149][112]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.53.39
+[2023.10.08-17.53.39:149][112]LogWorld: Bringing up level for play took: 0.007556
+[2023.10.08-17.53.39:155][112]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2023.10.08-17.53.39:160][112]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.53.39:162][112]PIE: Server logged in
+[2023.10.08-17.53.39:163][112]PIE: Play in editor total start time 0,472 seconds.
+[2023.10.08-17.53.39:357][112]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.53.44:229][206]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.53.44:229][206]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.53.44:229][206]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.53.47:620][299]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.53.47:620][299]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-17.53.47:620][299]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.53.47:622][299]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.53.47:622][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.53.47:622][299]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.53.47:663][299]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-17.53.47:671][299]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2023.10.08-17.53.47:675][299]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.53.47:685][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009184s)
+[2023.10.08-17.53.47:685][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009276s)
+[2023.10.08-17.53.47:685][299]LogAudio: Display: Audio Device (ID: 43) registered with world 'FirstPersonMap'.
+[2023.10.08-17.53.47:685][299]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.53.47:685][299]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.53.47:686][299]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.53.47:687][299]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.53.47:687][299]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.53.47:687][299]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.53.47:687][299]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.53.47:691][299]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.53.47:691][299]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 323 ms)
+[2023.10.08-17.53.47:691][299]LogPlayLevel: PIE: World Init took: (0.006287s)
+[2023.10.08-17.53.47:691][299]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.53.47:696][299]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.53.47
+[2023.10.08-17.53.47:696][299]LogWorld: Bringing up level for play took: 0.005207
+[2023.10.08-17.53.47:703][299]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.08-17.53.47:703][299]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.08-17.53.47:703][299]LogLoad: Took 0.083599 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.08-17.53.50:393][370]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.53.50:393][370]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.53.50:393][370]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.53.52:641][431]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.53.53:187][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.53.53:187][445]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.53.53:188][445]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.53.53:228][445]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.53.53:229][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.53.53:230][445]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.53.53:238][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.53.53:248][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.53.53:290][445]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2023.10.08-17.53.53:291][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.10.08-17.53.53:293][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.10.08-17.53.53:307][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.10.08-17.53.53:339][446]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.10.08-17.53.56:497][622]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.53.56:510][622]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.53.56:511][622]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.53.56:514][622]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 210 ms)
+[2023.10.08-17.53.56:514][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-17.53.56:514][622]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:53:56)
+[2023.10.08-17.53.56:514][622]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.53.56:526][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011919s)
+[2023.10.08-17.53.56:527][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011984s)
+[2023.10.08-17.53.56:551][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.10.08-17.53.56:553][622]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.53.56:554][622]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.53.56:554][622]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.53.56:555][622]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.53.56:556][622]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.53.56:556][622]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.53.56:556][622]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.53.56:558][622]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.53.56:558][622]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 325 ms)
+[2023.10.08-17.53.56:558][622]LogPlayLevel: PIE: World Init took: (0.004081s)
+[2023.10.08-17.53.56:558][622]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2023.10.08-17.53.56:558][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.53.56:558][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.53.56:558][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.53.56:558][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.53.56:558][622]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.53.56:558][622]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.53.56:558][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.53.56:558][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.53.56:559][622]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.53.56:559][622]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.53.56:559][622]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.53.56:562][622]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.53.56:618][622]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.53.56:619][622]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.53.56:619][622]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.53.56:619][622]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.53.56:620][622]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2023.10.08-17.53.56:620][622]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2023.10.08-17.53.56:623][622]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2023.10.08-17.53.56:623][622]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2023.10.08-17.53.56:623][622]LogInit: FAudioDevice initialized with ID 44.
+[2023.10.08-17.53.56:623][622]LogAudio: Display: Audio Device (ID: 44) registered with world 'FirstPersonMap'.
+[2023.10.08-17.53.56:623][622]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2023.10.08-17.53.56:717][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.53.56:717][622]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.53.56:728][622]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.53.56
+[2023.10.08-17.53.56:728][622]LogWorld: Bringing up level for play took: 0.010373
+[2023.10.08-17.53.56:733][622]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2023.10.08-17.53.56:740][622]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.53.56:745][622]PIE: Server logged in
+[2023.10.08-17.53.56:750][622]PIE: Play in editor total start time 0,239 seconds.
+[2023.10.08-17.53.56:791][622]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.54.00:522][711]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.54.00:522][711]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.54.00:522][711]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.54.01:531][738]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.54.04:838][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.54.04:838][826]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.54.04:842][826]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.54.04:877][826]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.54.04:877][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.54.04:878][826]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.54.04:884][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.54.04:904][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.54.04:957][826]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2023.10.08-17.54.04:958][826]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.10.08-17.54.04:960][826]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.10.08-17.54.04:976][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.10.08-17.54.05:023][827]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.10.08-17.55.25:160][373]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.55.25:346][373]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.55.25:347][373]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameA558104F4B9D180A4202F3B1BF217795.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.55.25:367][373]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 29.8 sec)
+[2023.10.08-17.55.25:370][373]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.55.25:370][373]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.55.33:355][522]BlueprintLog: New page: Compile GM_TargetGame
+[2023.10.08-17.55.33:432][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.10.08-17.55.48:263][935]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.55.48:275][935]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.55.48:276][935]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.55.48:280][935]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 214 ms)
+[2023.10.08-17.55.48:281][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-17.55.48:281][935]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 21:55:48)
+[2023.10.08-17.55.48:281][935]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.55.48:292][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011079s)
+[2023.10.08-17.55.48:292][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011174s)
+[2023.10.08-17.55.48:318][935]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.10.08-17.55.48:322][935]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-17.55.48:322][935]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-17.55.48:323][935]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-17.55.48:323][935]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-17.55.48:324][935]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-17.55.48:324][935]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-17.55.48:324][935]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-17.55.48:326][935]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-17.55.48:326][935]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 328 ms)
+[2023.10.08-17.55.48:326][935]LogPlayLevel: PIE: World Init took: (0.004121s)
+[2023.10.08-17.55.48:326][935]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2023.10.08-17.55.48:326][935]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-17.55.48:326][935]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-17.55.48:326][935]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-17.55.48:326][935]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-17.55.48:326][935]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-17.55.48:326][935]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-17.55.48:326][935]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-17.55.48:326][935]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-17.55.48:327][935]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-17.55.48:327][935]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-17.55.48:327][935]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-17.55.48:330][935]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-17.55.48:385][935]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-17.55.48:385][935]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-17.55.48:385][935]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-17.55.48:385][935]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-17.55.48:386][935]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2023.10.08-17.55.48:386][935]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2023.10.08-17.55.48:390][935]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2023.10.08-17.55.48:390][935]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2023.10.08-17.55.48:390][935]LogInit: FAudioDevice initialized with ID 45.
+[2023.10.08-17.55.48:390][935]LogAudio: Display: Audio Device (ID: 45) registered with world 'FirstPersonMap'.
+[2023.10.08-17.55.48:390][935]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2023.10.08-17.55.48:478][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.55.48:478][935]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-17.55.48:488][935]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-19.55.48
+[2023.10.08-17.55.48:488][935]LogWorld: Bringing up level for play took: 0.009761
+[2023.10.08-17.55.48:491][935]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.10.08-17.55.48:497][935]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-17.55.48:503][935]PIE: Server logged in
+[2023.10.08-17.55.48:510][935]PIE: Play in editor total start time 0,234 seconds.
+[2023.10.08-17.55.48:540][935]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-17.55.52:270][ 26]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-17.55.52:270][ 26]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-17.55.52:270][ 26]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-17.55.55:171][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-17.55.55:172][111]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-17.55.55:172][111]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-17.55.55:203][111]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-17.55.55:206][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.55.55:206][111]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-17.55.55:213][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-17.55.55:230][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-17.55.55:277][111]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-17.55.55:277][111]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2023.10.08-17.55.55:277][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.10.08-17.55.55:280][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.10.08-17.55.55:294][111]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.10.08-17.55.55:331][112]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.10.08-17.56.30:575][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.56.30:746][855]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.56.30:747][855]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameDA1354874F3F1C0E48DE37B60EEEB92B.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.56.30:775][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 30.0 sec)
+[2023.10.08-17.56.30:778][855]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.56.30:778][855]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.57.20:132][695]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.57.20:313][695]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.57.20:313][695]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame1E5303984695F6B77F4A37B7848E314E.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.57.20:334][695]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 30.2 sec)
+[2023.10.08-17.57.20:341][695]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.57.20:341][695]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.58.30:478][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.58.30:663][176]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.58.30:664][176]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame1C38990C407B24771F6A82AB64FE7586.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.58.30:688][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 30.4 sec)
+[2023.10.08-17.58.30:692][176]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.58.30:692][176]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.58.36:081][316]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.58.36:247][316]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.58.36:248][316]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameE31DE846459785E0E54BA08BD969954F.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.58.36:272][316]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 30.6 sec)
+[2023.10.08-17.58.36:275][316]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.58.36:275][316]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.59.04:007][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.59.04:173][564]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.59.04:174][564]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame1C3A313941C1F1035FC639B73034F3A3.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.59.04:196][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 30.8 sec)
+[2023.10.08-17.59.04:200][564]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.59.04:200][564]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.59.14:595][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.59.14:763][926]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.59.14:764][926]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameF2B598924CF799659903BE931B385FF4.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.59.14:790][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 31.0 sec)
+[2023.10.08-17.59.14:791][926]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.59.14:791][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.59.22:638][ 50]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-17.59.22:648][ 50]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-17.59.22:648][ 50]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-17.59.22:656][ 50]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 6 ms (total: 221 ms)
+[2023.10.08-17.59.22:656][ 50]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.08-17.59.22:659][ 50]LogPlayLevel: [PlayLevel] Compiling GM_TargetGame before play...
+[2023.10.08-17.59.22:669][ 50]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2023.10.08-17.59.22:669][ 50]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2023.10.08-17.59.22:671][ 50]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.10.08-17.59.22:854][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2023.10.08-17.59.22:857][ 50]LogPlayLevel: PlayLevel: Blueprint regeneration took 202 ms (1 blueprints)
+[2023.10.08-17.59.22:857][ 50]BlueprintLog: Warning: Blueprint failed to compile:  GM_TargetGame
+[2023.10.08-17.59.27:316][ 50]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.10.08-17.59.29:847][156]LogSlate: Window 'Message Log' being destroyed
+[2023.10.08-17.59.29:869][156]LogSlate: Window 'Message Log' being destroyed
+[2023.10.08-17.59.31:004][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-17.59.31:173][220]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-17.59.31:173][220]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGameE9F06529432D6C79E23247B59E305E7C.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-17.59.31:192][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 31.2 sec)
+[2023.10.08-17.59.31:194][220]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-17.59.31:194][220]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-17.59.33:561][359]BlueprintLog: New page: Compile GM_TargetGame
+[2023.10.08-17.59.33:575][359]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2023.10.08-17.59.33:575][359]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2023.10.08-17.59.33:576][359]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.10.08-17.59.33:637][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.10.08-17.59.46:883][106]LogEditorTransaction: Undo Move Nodes
+[2023.10.08-17.59.48:722][185]LogEditorTransaction: Undo Change Bool Pin Value
+[2023.10.08-17.59.49:392][211]LogEditorTransaction: Undo Move Node
+[2023.10.08-17.59.50:002][233]LogEditorTransaction: Undo Add Node
+[2023.10.08-17.59.50:620][256]LogEditorTransaction: Undo Delete current selection
+[2023.10.08-17.59.51:433][274]LogEditorTransaction: Undo Delete current selection
+[2023.10.08-17.59.52:823][332]LogEditorTransaction: Undo Change Bool Pin Value
+[2023.10.08-17.59.53:645][359]LogEditorTransaction: Undo Move Node
+[2023.10.08-17.59.54:372][384]LogEditorTransaction: Undo Add Node
+[2023.10.08-17.59.55:185][402]LogEditorTransaction: Undo Delete current selection
+[2023.10.08-17.59.57:039][485]LogEditorTransaction: Undo Add Out Parameter
+[2023.10.08-17.59.57:804][508]LogEditorTransaction: Undo Move Nodes
+[2023.10.08-17.59.58:789][546]LogEditorTransaction: Undo Create Pin Link
+[2023.10.08-18.00.00:410][607]LogEditorTransaction: Undo Move Nodes
+[2023.10.08-18.00.03:588][754]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-18.00.03:763][754]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-18.00.03:764][754]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame97F685CB4BD611285EB2AD8853851547.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-18.00.03:783][754]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 31.4 sec)
+[2023.10.08-18.00.03:786][754]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-18.00.03:786][754]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-18.00.06:630][882]LogEditorTransaction: Redo Move Nodes
+[2023.10.08-18.00.08:691][953]LogEditorTransaction: Redo Create Pin Link
+[2023.10.08-18.00.14:671][256]LogEditorTransaction: Redo Move Nodes
+[2023.10.08-18.00.19:018][480]LogEditorTransaction: Redo Add Out Parameter
+[2023.10.08-18.00.20:433][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-18.00.20:603][531]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-18.00.20:603][531]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame2AF3C15541A5CC2B29C050ADA16F2939.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-18.00.20:629][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 31.6 sec)
+[2023.10.08-18.00.20:631][531]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-18.00.20:631][531]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-18.00.21:709][596]BlueprintLog: New page: Compile GM_TargetGame
+[2023.10.08-18.00.21:727][596]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] This blueprint (self) is not a Controller, therefore ' Target ' must have a connection.
+[2023.10.08-18.00.21:727][596]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2023.10.08-18.00.21:728][596]LogBlueprint: Error: [AssetLog] C:\Users\dbars\Documents\GitHub\TargetShooter\TargetShooter\Content\FirstPerson\Blueprints\GM_TargetGame.uasset: [Compiler] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2023.10.08-18.00.21:795][596]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2023.10.08-18.00.49:978][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-18.00.50:162][ 80]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-18.00.50:162][ 80]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame250DFBC34A9BF7DDC78519AD0963FDA7.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-18.00.50:184][ 80]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 31.8 sec)
+[2023.10.08-18.00.50:187][ 80]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-18.00.50:187][ 80]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-18.00.52:973][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-18.00.53:145][239]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-18.00.53:146][239]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame906E178D4D53D58099A3B4B6763163A7.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-18.00.53:166][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 32.0 sec)
+[2023.10.08-18.00.53:170][239]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-18.00.53:170][239]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-18.00.54:660][320]BlueprintLog: New page: Compile GM_TargetGame
+[2023.10.08-18.00.54:741][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2023.10.08-18.01.14:725][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-18.01.14:913][362]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-18.01.14:914][362]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame41562E1542040C8D3FC178992B2EB44B.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-18.01.14:936][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 32.2 sec)
+[2023.10.08-18.01.14:939][362]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-18.01.14:939][362]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-18.01.28:433][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-18.01.28:611][ 75]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/GM_TargetGame
+[2023.10.08-18.01.28:612][ 75]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/GM_TargetGame096D1B194697EFE809DA469F4D206622.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset'
+[2023.10.08-18.01.28:635][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 32.4 sec)
+[2023.10.08-18.01.28:640][ 75]AssetCheck: New page: Asset Save: GM_TargetGame
+[2023.10.08-18.01.28:640][ 75]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.08-18.01.29:407][121]BlueprintLog: New page: Compile GM_TargetGame
+[2023.10.08-18.01.29:479][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2023.10.08-18.01.31:211][201]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.08-18.01.31:227][201]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.08-18.01.31:227][201]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.08-18.01.31:231][201]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 226 ms)
+[2023.10.08-18.01.31:232][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.08-18.01.31:232][201]PIE: New page: PIE session: FirstPersonMap (8 oct. 2023 à 22:01:31)
+[2023.10.08-18.01.31:232][201]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-18.01.31:245][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012396s)
+[2023.10.08-18.01.31:245][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.012467s)
+[2023.10.08-18.01.31:270][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2023.10.08-18.01.31:274][201]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-18.01.31:274][201]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-18.01.31:275][201]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-18.01.31:275][201]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-18.01.31:275][201]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-18.01.31:276][201]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-18.01.31:276][201]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-18.01.31:278][201]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-18.01.31:278][201]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 330 ms)
+[2023.10.08-18.01.31:278][201]LogPlayLevel: PIE: World Init took: (0.004303s)
+[2023.10.08-18.01.31:278][201]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2023.10.08-18.01.31:278][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.08-18.01.31:278][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.08-18.01.31:278][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.08-18.01.31:278][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.08-18.01.31:278][201]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.08-18.01.31:278][201]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.08-18.01.31:278][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.08-18.01.31:278][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.08-18.01.31:279][201]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.08-18.01.31:279][201]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.08-18.01.31:279][201]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.08-18.01.31:282][201]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.08-18.01.31:338][201]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (KORP THALLIUM)
+[2023.10.08-18.01.31:339][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.08-18.01.31:339][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.08-18.01.31:339][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.08-18.01.31:342][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2023.10.08-18.01.31:342][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2023.10.08-18.01.31:345][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2023.10.08-18.01.31:345][201]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2023.10.08-18.01.31:345][201]LogInit: FAudioDevice initialized with ID 46.
+[2023.10.08-18.01.31:345][201]LogAudio: Display: Audio Device (ID: 46) registered with world 'FirstPersonMap'.
+[2023.10.08-18.01.31:345][201]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2023.10.08-18.01.31:443][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-18.01.31:444][201]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-18.01.31:451][201]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-20.01.31
+[2023.10.08-18.01.31:452][201]LogWorld: Bringing up level for play took: 0.008119
+[2023.10.08-18.01.31:457][201]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.10.08-18.01.31:463][201]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.08-18.01.31:466][201]PIE: Server logged in
+[2023.10.08-18.01.31:470][201]PIE: Play in editor total start time 0,243 seconds.
+[2023.10.08-18.01.31:491][201]LogViewport: Scene viewport resized to 1286x658, mode Windowed.
+[2023.10.08-18.01.35:288][295]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-18.01.35:288][295]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-18.01.35:288][295]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-18.01.37:086][342]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-18.01.37:086][342]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-18.01.37:086][342]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-18.01.37:087][342]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-18.01.37:088][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-18.01.37:088][342]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-18.01.37:177][342]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-18.01.37:182][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.10.08-18.01.37:187][342]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-18.01.37:196][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009413s)
+[2023.10.08-18.01.37:196][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009489s)
+[2023.10.08-18.01.37:196][342]LogAudio: Display: Audio Device (ID: 46) registered with world 'FirstPersonMap'.
+[2023.10.08-18.01.37:196][342]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-18.01.37:196][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-18.01.37:197][342]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-18.01.37:197][342]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-18.01.37:197][342]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-18.01.37:197][342]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-18.01.37:197][342]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-18.01.37:200][342]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-18.01.37:200][342]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 333 ms)
+[2023.10.08-18.01.37:200][342]LogPlayLevel: PIE: World Init took: (0.004232s)
+[2023.10.08-18.01.37:200][342]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-18.01.37:204][342]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-20.01.37
+[2023.10.08-18.01.37:205][342]LogWorld: Bringing up level for play took: 0.003790
+[2023.10.08-18.01.37:209][342]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.08-18.01.37:209][342]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.08-18.01.37:210][342]LogLoad: Took 0.124058 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.08-18.01.42:100][472]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.08-18.01.42:100][472]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.08-18.01.42:100][472]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.08-18.01.44:548][540]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-18.01.44:548][540]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.08-18.01.44:548][540]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-18.01.44:549][540]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-18.01.44:550][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-18.01.44:550][540]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-18.01.44:595][540]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.08-18.01.44:601][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2023.10.08-18.01.44:606][540]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-18.01.44:618][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011549s)
+[2023.10.08-18.01.44:618][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011659s)
+[2023.10.08-18.01.44:618][540]LogAudio: Display: Audio Device (ID: 46) registered with world 'FirstPersonMap'.
+[2023.10.08-18.01.44:618][540]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.08-18.01.44:619][540]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.08-18.01.44:620][540]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.08-18.01.44:621][540]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.08-18.01.44:622][540]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.08-18.01.44:622][540]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.08-18.01.44:622][540]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.08-18.01.44:626][540]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.08-18.01.44:626][540]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 337 ms)
+[2023.10.08-18.01.44:626][540]LogPlayLevel: PIE: World Init took: (0.007809s)
+[2023.10.08-18.01.44:626][540]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.08-18.01.44:630][540]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.10.08-20.01.44
+[2023.10.08-18.01.44:630][540]LogWorld: Bringing up level for play took: 0.004025
+[2023.10.08-18.01.44:635][540]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.08-18.01.44:636][540]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.08-18.01.44:637][540]LogLoad: Took 0.088849 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.08-18.01.45:176][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.08-18.01.45:176][554]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.08-18.01.45:182][554]LogSlate: Window 'FirstPersonTemplate Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.08-18.01.45:213][554]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.08-18.01.45:214][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-18.01.45:215][554]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.08-18.01.45:219][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.08-18.01.45:229][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.08-18.01.45:273][554]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2023.10.08-18.01.45:273][554]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.10.08-18.01.45:276][554]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.10.08-18.01.45:294][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.10.08-18.01.45:326][555]LogPlayLevel: Display: Destroying online subsystem :Context_61
