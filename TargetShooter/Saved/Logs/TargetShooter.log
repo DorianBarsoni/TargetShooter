@@ -2616,3 +2616,4 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.10.08-19.14.18:277][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
 [2023.10.08-19.14.18:294][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
 [2023.10.08-19.14.18:335][217]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.10.08-19.15.50:207][831]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
