@@ -14,7 +14,10 @@
 				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TJ/XZ0WBCGPCNBUDEKGCX7V03.uasset",
 				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_UI.uasset",
 				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/WBP_EndScreen.uasset",
-				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_Rifle.uasset"
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_Rifle.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_Bullet.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/ScifiWeapons/Material/M_Emissive_Bullet.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/ScifiWeapons/Effects/P_ProjectileSparks.uasset"
 			]
 		}
 	]
