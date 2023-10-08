@@ -5,7 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset"
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_Target.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/N7/OGZXCNNW2RIDWPF71ZILQ4.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/AV/08X7LL3IQ7AORUXVYPCFXL.uasset",
+				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TJ/XZ0WBCGPCNBUDEKGCX7V03.uasset"
 			]
 		}
 	]
