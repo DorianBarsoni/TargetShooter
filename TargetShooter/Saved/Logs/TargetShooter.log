@@ -7857,3 +7857,23 @@ Script Stack (0 frames) :
 [2023.10.08-20.42.24:536][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
 [2023.10.08-20.42.24:561][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
 [2023.10.08-20.42.24:755][485]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2023.10.08-20.42.55:634][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-20.42.55:947][756]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Target
+[2023.10.08-20.42.55:948][756]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/BP_Target4AF2D5EB464397D11D0725ADE55A0BD2.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_Target.uasset'
+[2023.10.08-20.42.55:971][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 337 ms (total: 42.8 sec)
+[2023.10.08-20.42.55:972][756]AssetCheck: New page: Asset Save: BP_Target
+[2023.10.08-20.42.55:972][756]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Target.BP_Target
+[2023.10.08-20.43.00:169][828]LogUObjectHash: Compacting FUObjectHashTables data took   7.35ms
+[2023.10.08-20.43.01:812][828]LogSlate: Window 'Save Content' being destroyed
+[2023.10.08-20.43.01:834][828]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.08-20.43.02:013][828]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/N7/OGZXCNNW2RIDWPF71ZILQ4
+[2023.10.08-20.43.02:014][828]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/OGZXCNNW2RIDWPF71ZILQ4D5D2C5FE4ED51262B00C65831B0327BB.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/N7/OGZXCNNW2RIDWPF71ZILQ4.uasset'
+[2023.10.08-20.43.02:031][828]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/AV/08X7LL3IQ7AORUXVYPCFXL
+[2023.10.08-20.43.02:034][828]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/08X7LL3IQ7AORUXVYPCFXL72100A3B475CA6E356C87C80B02D094A.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/AV/08X7LL3IQ7AORUXVYPCFXL.uasset'
+[2023.10.08-20.43.02:052][828]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TJ/XZ0WBCGPCNBUDEKGCX7V03
+[2023.10.08-20.43.02:054][828]LogSavePackage: Moving '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Saved/XZ0WBCGPCNBUDEKGCX7V0390CA6ACA4D45B4CB7A46EDB416C6FB80.tmp' to '../../../../../../Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TJ/XZ0WBCGPCNBUDEKGCX7V03.uasset'
+[2023.10.08-20.43.02:080][828]LogFileHelpers: InternalPromptForCheckoutAndSave took 246 ms (total: 43.1 sec)
+[2023.10.08-20.43.02:088][828]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.08-20.43.02:088][828]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_002B67CC2E5CBDB001_1227711279
+[2023.10.08-20.43.02:088][828]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_002B67CC2E5CBEB001_1440461456
+[2023.10.08-20.43.02:088][828]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Target.BP_Target_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Target_C_UAID_002B67CC2E5CBEB001_1449886457
