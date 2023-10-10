@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/44/YCZMBQPWTRCZ6OW3J5EI9M.uasset",
+				"C:/Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/DreamscapeSeries/DreamscapeTower/Maps/Showcase.umap",
+				"C:/Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/DreamscapeSeries/DreamscapeTower/Maps/DemoMap.umap",
 				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_Target.uasset",
 				"C:/Users/dbars/Documents/GitHub/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/GM_TargetGame.uasset",
