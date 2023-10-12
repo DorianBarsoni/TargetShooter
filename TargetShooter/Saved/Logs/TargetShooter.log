@@ -16018,3 +16018,1024 @@ Script Stack (0 frames) :
 [2023.10.12-10.59.42:684][ 37]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Palissade/barrier.barrier
 [2023.10.12-10.59.42:684][ 37]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Textures/Metal/M_BasicMetal.M_BasicMetal
 [2023.10.12-10.59.42:684][ 37]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Palissade/Palisade.Palisade
+[2023.10.12-10.59.59:874][274]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-10.59.59:884][274]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-10.59.59:884][274]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-10.59.59:888][274]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 399 ms)
+[2023.10.12-10.59.59:888][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.12-10.59.59:888][274]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 14:59:59)
+[2023.10.12-10.59.59:929][274]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-10.59.59:943][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014350s)
+[2023.10.12-10.59.59:943][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014382s)
+[2023.10.12-10.59.59:959][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.10.12-10.59.59:960][274]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-10.59.59:960][274]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-10.59.59:960][274]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-10.59.59:961][274]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-10.59.59:961][274]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-10.59.59:961][274]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-10.59.59:961][274]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-10.59.59:966][274]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-10.59.59:966][274]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 879 ms)
+[2023.10.12-10.59.59:966][274]LogPlayLevel: PIE: World Init took: (0.005973s)
+[2023.10.12-10.59.59:966][274]LogAudio: Display: Creating Audio Device:                 Id: 93, Scope: Unique, Realtime: True
+[2023.10.12-10.59.59:966][274]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-10.59.59:966][274]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-10.59.59:966][274]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-10.59.59:966][274]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-10.59.59:966][274]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-10.59.59:966][274]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-10.59.59:966][274]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-10.59.59:966][274]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-10.59.59:967][274]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-10.59.59:967][274]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-10.59.59:967][274]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-10.59.59:969][274]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-10.59.59:985][274]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-10.59.59:986][274]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-10.59.59:986][274]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-10.59.59:986][274]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-10.59.59:986][274]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=93
+[2023.10.12-10.59.59:986][274]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=93
+[2023.10.12-10.59.59:988][274]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=93
+[2023.10.12-10.59.59:988][274]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=93
+[2023.10.12-10.59.59:988][274]LogInit: FAudioDevice initialized with ID 93.
+[2023.10.12-10.59.59:988][274]LogAudio: Display: Audio Device (ID: 93) registered with world 'FirstPersonMap'.
+[2023.10.12-10.59.59:988][274]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 93
+[2023.10.12-10.59.59:990][274]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-10.59.59:995][274]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-12.59.59
+[2023.10.12-10.59.59:996][274]LogWorld: Bringing up level for play took: 0.004375
+[2023.10.12-10.59.59:998][274]LogOnline: OSS: Created online subsystem instance for: :Context_115
+[2023.10.12-11.00.00:000][274]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.00.00:001][274]PIE: Server logged in
+[2023.10.12-11.00.00:002][274]PIE: Play in editor total start time 0,118 seconds.
+[2023.10.12-11.00.11:613][926]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.12-11.00.11:613][926]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.12-11.00.11:614][926]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.12-11.00.16:918][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.00.16:918][233]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.00.16:919][233]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.00.16:921][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.00.16:921][233]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.00.16:926][233]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.00.16:931][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.00.16:949][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.00.16:950][233]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 93
+[2023.10.12-11.00.16:950][233]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=93
+[2023.10.12-11.00.16:952][233]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=93
+[2023.10.12-11.00.16:969][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.10.12-11.00.17:015][234]LogPlayLevel: Display: Destroying online subsystem :Context_115
+[2023.10.12-11.00.42:340][884]BlueprintLog: New page: Compile BP_TargetAndBarrier
+[2023.10.12-11.00.42:391][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.10.12-11.00.42:438][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.00.42:593][884]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.00.42:594][884]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrierE7F2E21D493924D628CAEA9669DE1898.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.00.42:601][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 28.1 sec)
+[2023.10.12-11.00.42:603][884]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.00.42:603][884]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 1 (  Trying 18.205.164.1:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 2 (connect to 18.205.164.1 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 3 (  Trying 23.23.20.15:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 4 (After 19476ms connect time, move on!)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 5 (connect to 23.23.20.15 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 6 (  Trying 54.208.248.194:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 7 (After 9736ms connect time, move on!)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 8 (connect to 54.208.248.194 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 9 (  Trying 54.83.132.187:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 10 (After 4866ms connect time, move on!)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 11 (connect to 54.83.132.187 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 12 (  Trying 54.87.28.171:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 13 (After 2433ms connect time, move on!)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 14 (connect to 54.87.28.171 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 15 (  Trying 52.205.93.159:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 16 (After 1214ms connect time, move on!)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 17 (connect to 52.205.93.159 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 18 (  Trying 35.172.69.50:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 19 (After 606ms connect time, move on!)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 20 (connect to 35.172.69.50 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 21 (  Trying 44.193.191.221:443...)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 22 (After 302ms connect time, move on!)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 23 (connect to 44.193.191.221 port 443 failed: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 24 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59701 ms: Timed out)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: 0000081F46E37D00: libcurl info message cache 25 (Closing connection 128)
+[2023.10.12-11.00.42:664][885]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.01.12:374][374]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-11.01.12:383][374]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-11.01.12:383][374]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-11.01.12:387][374]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 402 ms)
+[2023.10.12-11.01.12:387][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.12-11.01.12:387][374]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 15:01:12)
+[2023.10.12-11.01.12:387][374]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.01.12:401][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013943s)
+[2023.10.12-11.01.12:401][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013972s)
+[2023.10.12-11.01.12:418][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.12-11.01.12:419][374]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.01.12:419][374]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.01.12:420][374]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.01.12:420][374]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.01.12:420][374]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.01.12:421][374]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.01.12:421][374]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.01.12:424][374]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.01.12:424][374]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 883 ms)
+[2023.10.12-11.01.12:424][374]LogPlayLevel: PIE: World Init took: (0.005832s)
+[2023.10.12-11.01.12:424][374]LogAudio: Display: Creating Audio Device:                 Id: 94, Scope: Unique, Realtime: True
+[2023.10.12-11.01.12:424][374]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-11.01.12:424][374]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-11.01.12:424][374]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-11.01.12:424][374]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-11.01.12:424][374]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-11.01.12:424][374]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-11.01.12:424][374]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-11.01.12:424][374]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-11.01.12:425][374]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-11.01.12:425][374]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-11.01.12:425][374]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-11.01.12:427][374]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-11.01.12:442][374]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-11.01.12:442][374]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-11.01.12:443][374]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-11.01.12:443][374]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-11.01.12:443][374]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=94
+[2023.10.12-11.01.12:443][374]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=94
+[2023.10.12-11.01.12:445][374]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=94
+[2023.10.12-11.01.12:445][374]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=94
+[2023.10.12-11.01.12:445][374]LogInit: FAudioDevice initialized with ID 94.
+[2023.10.12-11.01.12:445][374]LogAudio: Display: Audio Device (ID: 94) registered with world 'FirstPersonMap'.
+[2023.10.12-11.01.12:445][374]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 94
+[2023.10.12-11.01.12:499][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.01.12:499][374]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.01.12:505][374]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.01.12
+[2023.10.12-11.01.12:506][374]LogWorld: Bringing up level for play took: 0.005080
+[2023.10.12-11.01.12:508][374]LogOnline: OSS: Created online subsystem instance for: :Context_116
+[2023.10.12-11.01.12:510][374]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.01.12:513][374]PIE: Server logged in
+[2023.10.12-11.01.12:515][374]PIE: Play in editor total start time 0,132 seconds.
+[2023.10.12-11.01.12:539][374]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.10.12-11.01.21:339][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.01.21:339][770]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.01.21:340][770]LogSlate: Window 'TargetShooter Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.12-11.01.21:350][770]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.01.21:352][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.01.21:352][770]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.01.21:381][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.01.21:387][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.01.21:405][770]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.12-11.01.21:406][770]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 94
+[2023.10.12-11.01.21:406][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=94
+[2023.10.12-11.01.21:407][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=94
+[2023.10.12-11.01.21:420][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.10.12-11.01.21:513][771]LogPlayLevel: Display: Destroying online subsystem :Context_116
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 0 (Found bundle for host: 0x81de0960720 [serially])
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 1 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 2 (  Trying 18.205.164.1:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 3 (connect to 18.205.164.1 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 4 (  Trying 23.23.20.15:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 5 (After 19475ms connect time, move on!)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 6 (connect to 23.23.20.15 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 7 (  Trying 54.208.248.194:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 8 (After 9736ms connect time, move on!)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 9 (connect to 54.208.248.194 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 10 (  Trying 54.83.132.187:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 11 (After 4866ms connect time, move on!)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 12 (connect to 54.83.132.187 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 13 (  Trying 54.87.28.171:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 14 (After 2434ms connect time, move on!)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 15 (connect to 54.87.28.171 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 16 (  Trying 52.205.93.159:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 17 (After 1215ms connect time, move on!)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 18 (connect to 52.205.93.159 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 19 (  Trying 35.172.69.50:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 20 (After 606ms connect time, move on!)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 21 (connect to 35.172.69.50 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 22 (  Trying 44.193.191.221:443...)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 23 (After 303ms connect time, move on!)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 24 (connect to 44.193.191.221 port 443 failed: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 25 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59701 ms: Timed out)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: 00000820330FD700: libcurl info message cache 26 (Closing connection 129)
+[2023.10.12-11.01.40:983][ 30]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.01.50:127][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.01.50:247][ 78]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.01.50:248][ 78]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier5C79E90C484DD654E38BA082ACA621FF.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.01.50:253][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 28.3 sec)
+[2023.10.12-11.01.50:253][ 78]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.01.50:253][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.02.28:085][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.02.28:187][392]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.02.28:188][392]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier6CFD94854C18DAB61435099DCFD89213.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.02.28:194][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 28.4 sec)
+[2023.10.12-11.02.28:196][392]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.02.28:196][392]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.02.29:598][559]BlueprintLog: New page: Compile BP_TargetAndBarrier
+[2023.10.12-11.02.29:643][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.10.12-11.02.31:015][707]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-11.02.31:024][707]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-11.02.31:024][707]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-11.02.31:028][707]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 407 ms)
+[2023.10.12-11.02.31:028][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.12-11.02.31:028][707]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 15:02:31)
+[2023.10.12-11.02.31:029][707]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.02.31:042][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014288s)
+[2023.10.12-11.02.31:042][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014318s)
+[2023.10.12-11.02.31:055][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.10.12-11.02.31:057][707]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.02.31:058][707]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.02.31:058][707]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.02.31:059][707]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.02.31:059][707]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.02.31:059][707]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.02.31:059][707]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.02.31:063][707]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.02.31:063][707]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 887 ms)
+[2023.10.12-11.02.31:063][707]LogPlayLevel: PIE: World Init took: (0.005766s)
+[2023.10.12-11.02.31:063][707]LogAudio: Display: Creating Audio Device:                 Id: 95, Scope: Unique, Realtime: True
+[2023.10.12-11.02.31:063][707]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-11.02.31:063][707]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-11.02.31:063][707]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-11.02.31:063][707]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-11.02.31:063][707]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-11.02.31:063][707]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-11.02.31:063][707]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-11.02.31:063][707]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-11.02.31:064][707]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-11.02.31:064][707]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-11.02.31:064][707]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-11.02.31:066][707]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-11.02.31:082][707]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-11.02.31:082][707]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-11.02.31:082][707]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-11.02.31:082][707]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-11.02.31:083][707]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=95
+[2023.10.12-11.02.31:083][707]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=95
+[2023.10.12-11.02.31:084][707]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=95
+[2023.10.12-11.02.31:084][707]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=95
+[2023.10.12-11.02.31:084][707]LogInit: FAudioDevice initialized with ID 95.
+[2023.10.12-11.02.31:084][707]LogAudio: Display: Audio Device (ID: 95) registered with world 'FirstPersonMap'.
+[2023.10.12-11.02.31:084][707]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 95
+[2023.10.12-11.02.31:135][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.02.31:135][707]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.02.31:141][707]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.02.31
+[2023.10.12-11.02.31:141][707]LogWorld: Bringing up level for play took: 0.005334
+[2023.10.12-11.02.31:144][707]LogOnline: OSS: Created online subsystem instance for: :Context_117
+[2023.10.12-11.02.31:146][707]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.02.31:149][707]PIE: Server logged in
+[2023.10.12-11.02.31:150][707]PIE: Play in editor total start time 0,127 seconds.
+[2023.10.12-11.02.31:170][707]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.10.12-11.02.39:430][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.02.39:430][ 79]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.02.39:430][ 79]LogSlate: Window 'TargetShooter Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.12-11.02.39:434][ 79]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.02.39:435][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.02.39:436][ 79]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.02.39:458][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.02.39:463][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.02.39:482][ 79]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.12-11.02.39:482][ 79]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 95
+[2023.10.12-11.02.39:482][ 79]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95
+[2023.10.12-11.02.39:484][ 79]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=95
+[2023.10.12-11.02.39:494][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.12-11.02.39:576][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 0 (  Trying 52.0.57.176:443...)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 1 (connect to 52.0.57.176 port 443 failed: Timed out)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 2 (  Trying 35.173.141.251:443...)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 3 (After 19479ms connect time, move on!)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 4 (connect to 35.173.141.251 port 443 failed: Timed out)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 5 (  Trying 54.81.5.148:443...)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 6 (After 9737ms connect time, move on!)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 7 (connect to 54.81.5.148 port 443 failed: Timed out)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 8 (  Trying 54.209.161.130:443...)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 9 (After 4868ms connect time, move on!)
+[2023.10.12-11.02.40:988][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 10 (connect to 54.209.161.130 port 443 failed: Timed out)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 11 (  Trying 54.156.40.32:443...)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 12 (After 2433ms connect time, move on!)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 13 (connect to 54.156.40.32 port 443 failed: Timed out)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 14 (  Trying 3.227.98.208:443...)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 15 (After 1215ms connect time, move on!)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 16 (connect to 3.227.98.208 port 443 failed: Timed out)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 17 (  Trying 174.129.174.99:443...)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 18 (After 607ms connect time, move on!)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 19 (connect to 174.129.174.99 port 443 failed: Timed out)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 20 (  Trying 54.236.182.71:443...)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 21 (After 302ms connect time, move on!)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 22 (connect to 54.236.182.71 port 443 failed: Timed out)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 23 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59700 ms: Timed out)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: 000008202F12CD00: libcurl info message cache 24 (Closing connection 130)
+[2023.10.12-11.02.40:989][250]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.02.45:519][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.02.45:676][788]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.02.45:677][788]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrierD4F7253242F89AFAC2D5E08AD38FF7C8.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.02.45:683][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 28.5 sec)
+[2023.10.12-11.02.45:685][788]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.02.45:685][788]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.03.05:215][123]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-11.03.05:224][123]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-11.03.05:224][123]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-11.03.05:228][123]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 411 ms)
+[2023.10.12-11.03.05:229][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.12-11.03.05:229][123]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 15:03:05)
+[2023.10.12-11.03.05:230][123]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.03.05:243][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013844s)
+[2023.10.12-11.03.05:243][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013869s)
+[2023.10.12-11.03.05:258][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.10.12-11.03.05:260][123]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.03.05:260][123]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.03.05:260][123]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.03.05:261][123]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.03.05:261][123]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.03.05:261][123]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.03.05:261][123]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.03.05:265][123]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.03.05:265][123]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 892 ms)
+[2023.10.12-11.03.05:265][123]LogPlayLevel: PIE: World Init took: (0.005628s)
+[2023.10.12-11.03.05:265][123]LogAudio: Display: Creating Audio Device:                 Id: 96, Scope: Unique, Realtime: True
+[2023.10.12-11.03.05:266][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-11.03.05:266][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-11.03.05:266][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-11.03.05:266][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-11.03.05:266][123]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-11.03.05:266][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-11.03.05:266][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-11.03.05:266][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-11.03.05:266][123]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-11.03.05:266][123]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-11.03.05:266][123]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-11.03.05:268][123]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-11.03.05:284][123]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-11.03.05:284][123]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-11.03.05:284][123]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-11.03.05:284][123]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-11.03.05:285][123]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=96
+[2023.10.12-11.03.05:285][123]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=96
+[2023.10.12-11.03.05:287][123]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=96
+[2023.10.12-11.03.05:287][123]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=96
+[2023.10.12-11.03.05:287][123]LogInit: FAudioDevice initialized with ID 96.
+[2023.10.12-11.03.05:287][123]LogAudio: Display: Audio Device (ID: 96) registered with world 'FirstPersonMap'.
+[2023.10.12-11.03.05:287][123]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 96
+[2023.10.12-11.03.05:351][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.03.05:351][123]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.03.05:358][123]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.03.05
+[2023.10.12-11.03.05:358][123]LogWorld: Bringing up level for play took: 0.005664
+[2023.10.12-11.03.05:360][123]LogOnline: OSS: Created online subsystem instance for: :Context_118
+[2023.10.12-11.03.05:363][123]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.03.05:366][123]PIE: Server logged in
+[2023.10.12-11.03.05:368][123]PIE: Play in editor total start time 0,143 seconds.
+[2023.10.12-11.03.05:391][123]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.10.12-11.03.09:221][278]LogViewport: Scene viewport resized to 1914x999, mode Windowed.
+[2023.10.12-11.03.09:288][278]LogViewport: Scene viewport resized to 1914x973, mode Windowed.
+[2023.10.12-11.03.09:371][278]LogViewport: Scene viewport resized to 1914x949, mode Windowed.
+[2023.10.12-11.03.09:455][278]LogViewport: Scene viewport resized to 1914x897, mode Windowed.
+[2023.10.12-11.03.09:538][278]LogViewport: Scene viewport resized to 1914x886, mode Windowed.
+[2023.10.12-11.03.09:638][278]LogViewport: Scene viewport resized to 1914x875, mode Windowed.
+[2023.10.12-11.03.09:738][278]LogViewport: Scene viewport resized to 1914x874, mode Windowed.
+[2023.10.12-11.03.13:272][439]LogViewport: Scene viewport resized to 1913x874, mode Windowed.
+[2023.10.12-11.03.13:339][439]LogViewport: Scene viewport resized to 1906x869, mode Windowed.
+[2023.10.12-11.03.13:405][439]LogViewport: Scene viewport resized to 1762x787, mode Windowed.
+[2023.10.12-11.03.13:488][439]LogViewport: Scene viewport resized to 1532x750, mode Windowed.
+[2023.10.12-11.03.13:555][439]LogViewport: Scene viewport resized to 1122x689, mode Windowed.
+[2023.10.12-11.03.13:622][439]LogViewport: Scene viewport resized to 964x643, mode Windowed.
+[2023.10.12-11.03.13:688][439]LogViewport: Scene viewport resized to 843x626, mode Windowed.
+[2023.10.12-11.03.13:738][439]LogViewport: Scene viewport resized to 826x624, mode Windowed.
+[2023.10.12-11.03.13:789][439]LogViewport: Scene viewport resized to 822x623, mode Windowed.
+[2023.10.12-11.03.13:838][439]LogViewport: Scene viewport resized to 799x602, mode Windowed.
+[2023.10.12-11.03.13:889][439]LogViewport: Scene viewport resized to 774x560, mode Windowed.
+[2023.10.12-11.03.13:939][439]LogViewport: Scene viewport resized to 751x531, mode Windowed.
+[2023.10.12-11.03.13:989][439]LogViewport: Scene viewport resized to 748x520, mode Windowed.
+[2023.10.12-11.03.14:039][439]LogViewport: Scene viewport resized to 740x498, mode Windowed.
+[2023.10.12-11.03.14:089][439]LogViewport: Scene viewport resized to 737x485, mode Windowed.
+[2023.10.12-11.03.14:138][439]LogViewport: Scene viewport resized to 729x453, mode Windowed.
+[2023.10.12-11.03.14:188][439]LogViewport: Scene viewport resized to 717x424, mode Windowed.
+[2023.10.12-11.03.14:222][439]LogViewport: Scene viewport resized to 707x396, mode Windowed.
+[2023.10.12-11.03.14:272][439]LogViewport: Scene viewport resized to 698x381, mode Windowed.
+[2023.10.12-11.03.14:322][439]LogViewport: Scene viewport resized to 694x374, mode Windowed.
+[2023.10.12-11.03.14:372][439]LogViewport: Scene viewport resized to 692x368, mode Windowed.
+[2023.10.12-11.03.14:405][439]LogViewport: Scene viewport resized to 690x361, mode Windowed.
+[2023.10.12-11.03.14:455][439]LogViewport: Scene viewport resized to 686x349, mode Windowed.
+[2023.10.12-11.03.14:505][439]LogViewport: Scene viewport resized to 685x338, mode Windowed.
+[2023.10.12-11.03.14:555][439]LogViewport: Scene viewport resized to 685x331, mode Windowed.
+[2023.10.12-11.03.14:605][439]LogViewport: Scene viewport resized to 685x329, mode Windowed.
+[2023.10.12-11.03.14:688][439]LogViewport: Scene viewport resized to 682x329, mode Windowed.
+[2023.10.12-11.03.14:738][439]LogViewport: Scene viewport resized to 658x329, mode Windowed.
+[2023.10.12-11.03.14:788][439]LogViewport: Scene viewport resized to 651x329, mode Windowed.
+[2023.10.12-11.03.14:922][439]LogViewport: Scene viewport resized to 651x330, mode Windowed.
+[2023.10.12-11.03.15:054][439]LogViewport: Scene viewport resized to 652x330, mode Windowed.
+[2023.10.12-11.03.15:104][439]LogViewport: Scene viewport resized to 653x331, mode Windowed.
+[2023.10.12-11.03.33:060][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.03.33:060][ 35]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.03.33:060][ 35]LogSlate: Window 'TargetShooter Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.12-11.03.33:064][ 35]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.03.33:065][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.03.33:065][ 35]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.03.33:087][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.03.33:093][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.03.33:114][ 35]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 96
+[2023.10.12-11.03.33:114][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=96
+[2023.10.12-11.03.33:115][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=96
+[2023.10.12-11.03.33:126][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.12-11.03.33:220][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_118
+[2023.10.12-11.03.38:994][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.03.39:057][711]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.03.39:058][711]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrierE273D12E4DABCF189FAC8AAEFC492617.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.03.39:063][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 28.6 sec)
+[2023.10.12-11.03.39:065][711]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.03.39:065][711]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.03.40:308][847]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-11.03.40:317][847]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-11.03.40:317][847]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-11.03.40:322][847]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 415 ms)
+[2023.10.12-11.03.40:322][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.12-11.03.40:322][847]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 15:03:40)
+[2023.10.12-11.03.40:322][847]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.03.40:336][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014345s)
+[2023.10.12-11.03.40:336][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014403s)
+[2023.10.12-11.03.40:352][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.10.12-11.03.40:354][847]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.03.40:354][847]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.03.40:355][847]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.03.40:356][847]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.03.40:356][847]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.03.40:356][847]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.03.40:356][847]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.03.40:360][847]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.03.40:360][847]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 896 ms)
+[2023.10.12-11.03.40:360][847]LogPlayLevel: PIE: World Init took: (0.005759s)
+[2023.10.12-11.03.40:360][847]LogAudio: Display: Creating Audio Device:                 Id: 97, Scope: Unique, Realtime: True
+[2023.10.12-11.03.40:360][847]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-11.03.40:360][847]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-11.03.40:360][847]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-11.03.40:360][847]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-11.03.40:360][847]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-11.03.40:360][847]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-11.03.40:360][847]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-11.03.40:360][847]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-11.03.40:361][847]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-11.03.40:361][847]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-11.03.40:361][847]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-11.03.40:363][847]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-11.03.40:378][847]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-11.03.40:379][847]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-11.03.40:379][847]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-11.03.40:379][847]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-11.03.40:379][847]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=97
+[2023.10.12-11.03.40:379][847]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=97
+[2023.10.12-11.03.40:381][847]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=97
+[2023.10.12-11.03.40:381][847]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=97
+[2023.10.12-11.03.40:381][847]LogInit: FAudioDevice initialized with ID 97.
+[2023.10.12-11.03.40:381][847]LogAudio: Display: Audio Device (ID: 97) registered with world 'FirstPersonMap'.
+[2023.10.12-11.03.40:381][847]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 97
+[2023.10.12-11.03.40:417][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.03.40:417][847]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.03.40:422][847]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.03.40
+[2023.10.12-11.03.40:423][847]LogWorld: Bringing up level for play took: 0.005018
+[2023.10.12-11.03.40:425][847]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2023.10.12-11.03.40:427][847]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.03.40:430][847]PIE: Server logged in
+[2023.10.12-11.03.40:432][847]PIE: Play in editor total start time 0,114 seconds.
+[2023.10.12-11.03.40:456][847]LogViewport: Scene viewport resized to 653x331, mode Windowed.
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 1 (  Trying 54.209.161.130:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 2 (connect to 54.209.161.130 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 3 (  Trying 18.213.149.37:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 4 (After 19474ms connect time, move on!)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 5 (connect to 18.213.149.37 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 6 (  Trying 3.227.98.208:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 7 (After 9735ms connect time, move on!)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 8 (connect to 3.227.98.208 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 9 (  Trying 52.0.57.176:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 10 (After 4868ms connect time, move on!)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 11 (connect to 52.0.57.176 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 12 (  Trying 35.173.141.251:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 13 (After 2433ms connect time, move on!)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 14 (connect to 35.173.141.251 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 15 (  Trying 54.236.182.71:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 16 (After 1216ms connect time, move on!)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 17 (connect to 54.236.182.71 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 18 (  Trying 54.156.40.32:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 19 (After 608ms connect time, move on!)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 20 (connect to 54.156.40.32 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 21 (  Trying 52.20.106.27:443...)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 22 (After 304ms connect time, move on!)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 23 (connect to 52.20.106.27 port 443 failed: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 24 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59699 ms: Timed out)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: 000008202AFE4600: libcurl info message cache 25 (Closing connection 131)
+[2023.10.12-11.03.40:992][877]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.03.54:981][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.03.54:981][158]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.03.54:983][158]LogSlate: Window 'TargetShooter Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.12-11.03.54:990][158]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.03.54:991][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.03.54:992][158]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.03.55:014][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.03.55:021][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.03.55:040][158]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 97
+[2023.10.12-11.03.55:040][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=97
+[2023.10.12-11.03.55:042][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=97
+[2023.10.12-11.03.55:053][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.10.12-11.03.55:150][159]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2023.10.12-11.03.57:684][446]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.03.57:740][446]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.03.57:741][446]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier1AAE439F4B62676D42906ABDC768547C.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.03.57:746][446]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 28.7 sec)
+[2023.10.12-11.03.57:748][446]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.03.57:748][446]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.03.59:191][610]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-11.03.59:200][610]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-11.03.59:200][610]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-11.03.59:204][610]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 419 ms)
+[2023.10.12-11.03.59:204][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.12-11.03.59:204][610]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 15:03:59)
+[2023.10.12-11.03.59:204][610]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.03.59:218][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013959s)
+[2023.10.12-11.03.59:218][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013986s)
+[2023.10.12-11.03.59:231][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.10.12-11.03.59:233][610]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.03.59:233][610]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.03.59:234][610]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.03.59:235][610]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.03.59:235][610]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.03.59:235][610]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.03.59:235][610]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.03.59:239][610]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.03.59:239][610]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 900 ms)
+[2023.10.12-11.03.59:239][610]LogPlayLevel: PIE: World Init took: (0.005788s)
+[2023.10.12-11.03.59:239][610]LogAudio: Display: Creating Audio Device:                 Id: 98, Scope: Unique, Realtime: True
+[2023.10.12-11.03.59:239][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-11.03.59:239][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-11.03.59:239][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-11.03.59:239][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-11.03.59:239][610]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-11.03.59:239][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-11.03.59:239][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-11.03.59:239][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-11.03.59:240][610]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-11.03.59:240][610]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-11.03.59:240][610]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-11.03.59:242][610]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-11.03.59:257][610]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-11.03.59:258][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-11.03.59:258][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-11.03.59:258][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-11.03.59:258][610]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=98
+[2023.10.12-11.03.59:258][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=98
+[2023.10.12-11.03.59:260][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=98
+[2023.10.12-11.03.59:260][610]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=98
+[2023.10.12-11.03.59:260][610]LogInit: FAudioDevice initialized with ID 98.
+[2023.10.12-11.03.59:260][610]LogAudio: Display: Audio Device (ID: 98) registered with world 'FirstPersonMap'.
+[2023.10.12-11.03.59:260][610]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 98
+[2023.10.12-11.03.59:300][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.03.59:300][610]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.03.59:306][610]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.03.59
+[2023.10.12-11.03.59:306][610]LogWorld: Bringing up level for play took: 0.004946
+[2023.10.12-11.03.59:308][610]LogOnline: OSS: Created online subsystem instance for: :Context_120
+[2023.10.12-11.03.59:311][610]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.03.59:313][610]PIE: Server logged in
+[2023.10.12-11.03.59:315][610]PIE: Play in editor total start time 0,115 seconds.
+[2023.10.12-11.03.59:337][610]LogViewport: Scene viewport resized to 653x331, mode Windowed.
+[2023.10.12-11.04.08:330][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.04.08:330][386]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.04.08:330][386]LogSlate: Window 'TargetShooter Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.12-11.04.08:334][386]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.04.08:335][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.04.08:336][386]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.04.08:358][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.04.08:363][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.04.08:381][386]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 98
+[2023.10.12-11.04.08:381][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98
+[2023.10.12-11.04.08:383][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98
+[2023.10.12-11.04.08:394][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.10.12-11.04.08:489][387]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2023.10.12-11.04.10:116][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-11.04.10:125][567]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-11.04.10:125][567]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-11.04.10:129][567]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms (total: 423 ms)
+[2023.10.12-11.04.10:129][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.12-11.04.10:129][567]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 15:04:10)
+[2023.10.12-11.04.10:129][567]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.04.10:143][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013719s)
+[2023.10.12-11.04.10:143][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013745s)
+[2023.10.12-11.04.10:158][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.10.12-11.04.10:160][567]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.04.10:160][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.04.10:160][567]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.04.10:161][567]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.04.10:161][567]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.04.10:161][567]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.04.10:161][567]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.04.10:166][567]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.04.10:166][567]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 905 ms)
+[2023.10.12-11.04.10:166][567]LogPlayLevel: PIE: World Init took: (0.005691s)
+[2023.10.12-11.04.10:166][567]LogAudio: Display: Creating Audio Device:                 Id: 99, Scope: Unique, Realtime: True
+[2023.10.12-11.04.10:166][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-11.04.10:166][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-11.04.10:166][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-11.04.10:166][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-11.04.10:166][567]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-11.04.10:166][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-11.04.10:166][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-11.04.10:166][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-11.04.10:166][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-11.04.10:166][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-11.04.10:166][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-11.04.10:168][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-11.04.10:184][567]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-11.04.10:185][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-11.04.10:185][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-11.04.10:185][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-11.04.10:185][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=99
+[2023.10.12-11.04.10:185][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=99
+[2023.10.12-11.04.10:187][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=99
+[2023.10.12-11.04.10:187][567]LogInit: FAudioDevice initialized with ID 99.
+[2023.10.12-11.04.10:187][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=99
+[2023.10.12-11.04.10:187][567]LogAudio: Display: Audio Device (ID: 99) registered with world 'FirstPersonMap'.
+[2023.10.12-11.04.10:187][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 99
+[2023.10.12-11.04.10:231][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.04.10:231][567]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.04.10:237][567]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.04.10
+[2023.10.12-11.04.10:238][567]LogWorld: Bringing up level for play took: 0.005028
+[2023.10.12-11.04.10:240][567]LogOnline: OSS: Created online subsystem instance for: :Context_121
+[2023.10.12-11.04.10:242][567]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.04.10:245][567]PIE: Server logged in
+[2023.10.12-11.04.10:247][567]PIE: Play in editor total start time 0,122 seconds.
+[2023.10.12-11.04.10:269][567]LogViewport: Scene viewport resized to 653x331, mode Windowed.
+[2023.10.12-11.04.25:081][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.04.25:081][895]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.04.25:082][895]LogSlate: Window 'TargetShooter Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.12-11.04.25:085][895]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.04.25:086][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.04.25:087][895]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.04.25:109][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.04.25:114][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.04.25:134][895]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 99
+[2023.10.12-11.04.25:134][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=99
+[2023.10.12-11.04.25:135][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=99
+[2023.10.12-11.04.25:145][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.12-11.04.25:240][896]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 1 (  Trying 35.171.118.249:443...)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 2 (connect to 35.171.118.249 port 443 failed: Timed out)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 3 (  Trying 44.193.99.138:443...)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 4 (After 19474ms connect time, move on!)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 5 (connect to 44.193.99.138 port 443 failed: Timed out)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 6 (  Trying 18.235.154.150:443...)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 7 (After 9735ms connect time, move on!)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 8 (connect to 18.235.154.150 port 443 failed: Timed out)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 9 (  Trying 3.211.190.143:443...)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 10 (After 4865ms connect time, move on!)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 11 (connect to 3.211.190.143 port 443 failed: Timed out)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 12 (  Trying 54.87.197.229:443...)
+[2023.10.12-11.04.40:995][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 13 (After 2431ms connect time, move on!)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 14 (connect to 54.87.197.229 port 443 failed: Timed out)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 15 (  Trying 3.221.50.168:443...)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 16 (After 1215ms connect time, move on!)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 17 (connect to 3.221.50.168 port 443 failed: Timed out)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 18 (  Trying 107.23.11.36:443...)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 19 (After 607ms connect time, move on!)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 20 (connect to 107.23.11.36 port 443 failed: Timed out)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 21 (  Trying 3.220.35.16:443...)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 22 (After 303ms connect time, move on!)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 23 (connect to 3.220.35.16 port 443 failed: Timed out)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 24 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59702 ms: Timed out)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: 000008201DC4A000: libcurl info message cache 25 (Closing connection 132)
+[2023.10.12-11.04.40:996][751]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.05.27:769][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.05.27:893][141]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.05.27:893][141]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier2FF9373C42C79E15174175AB1FCC94B2.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.05.27:900][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 28.8 sec)
+[2023.10.12-11.05.27:902][141]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.05.27:902][141]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 1 (  Trying 44.193.99.138:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 2 (connect to 44.193.99.138 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 3 (  Trying 107.23.11.36:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 4 (After 19477ms connect time, move on!)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 5 (connect to 107.23.11.36 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 6 (  Trying 3.211.190.143:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 7 (After 9732ms connect time, move on!)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 8 (connect to 3.211.190.143 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 9 (  Trying 35.171.118.249:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 10 (After 4866ms connect time, move on!)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 11 (connect to 35.171.118.249 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 12 (  Trying 3.220.35.16:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 13 (After 2431ms connect time, move on!)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 14 (connect to 3.220.35.16 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 15 (  Trying 3.221.50.168:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 16 (After 1214ms connect time, move on!)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 17 (connect to 3.221.50.168 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 18 (  Trying 34.192.112.181:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 19 (After 605ms connect time, move on!)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 20 (connect to 34.192.112.181 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 21 (  Trying 54.87.197.229:443...)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 22 (After 302ms connect time, move on!)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 23 (connect to 54.87.197.229 port 443 failed: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 24 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59703 ms: Timed out)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: 0000082019044100: libcurl info message cache 25 (Closing connection 133)
+[2023.10.12-11.05.41:004][601]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.05.44:777][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.05.44:906][ 26]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.05.44:907][ 26]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrierBAE2785943B881EE158CD38276F115D9.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.05.44:913][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 28.9 sec)
+[2023.10.12-11.05.44:915][ 26]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.05.44:915][ 26]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.05.56:985][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.05.57:058][439]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.05.57:059][439]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier5FAFD48C422F77CB708EFB8E9598B58D.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.05.57:064][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 29.0 sec)
+[2023.10.12-11.05.57:067][439]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.05.57:067][439]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.06.02:161][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.06.02:225][ 41]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.06.02:226][ 41]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier0E3358554B31AB22D8065D8045965861.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.06.02:232][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 29.1 sec)
+[2023.10.12-11.06.02:234][ 41]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.06.02:234][ 41]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.06.20:093][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.06.20:222][136]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.06.20:223][136]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier067A5DC643EB8EA54D4FCBBADC44EBF4.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.06.20:228][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 29.2 sec)
+[2023.10.12-11.06.20:230][136]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.06.20:230][136]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.06.21:007][229]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.12-11.06.21:016][229]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.12-11.06.21:016][229]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.12-11.06.21:020][229]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 427 ms)
+[2023.10.12-11.06.21:020][229]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.12-11.06.21:021][229]LogPlayLevel: [PlayLevel] Compiling BP_TargetAndBarrier before play...
+[2023.10.12-11.06.21:110][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.10.12-11.06.21:112][229]LogPlayLevel: PlayLevel: Blueprint regeneration took 91 ms (1 blueprints)
+[2023.10.12-11.06.21:112][229]PIE: New page: PIE session: FirstPersonMap (12 oct. 2023 à 15:06:21)
+[2023.10.12-11.06.21:112][229]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.06.21:126][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013674s)
+[2023.10.12-11.06.21:126][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013700s)
+[2023.10.12-11.06.21:142][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.12-11.06.21:143][229]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.06.21:143][229]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.06.21:144][229]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.06.21:145][229]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.06.21:145][229]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.06.21:145][229]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.06.21:145][229]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.06.21:149][229]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.06.21:149][229]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 909 ms)
+[2023.10.12-11.06.21:149][229]LogPlayLevel: PIE: World Init took: (0.005854s)
+[2023.10.12-11.06.21:149][229]LogAudio: Display: Creating Audio Device:                 Id: 100, Scope: Unique, Realtime: True
+[2023.10.12-11.06.21:149][229]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.12-11.06.21:149][229]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.12-11.06.21:149][229]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.12-11.06.21:149][229]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.12-11.06.21:149][229]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.12-11.06.21:149][229]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.12-11.06.21:149][229]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.12-11.06.21:149][229]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.12-11.06.21:150][229]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.12-11.06.21:150][229]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.12-11.06.21:150][229]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.12-11.06.21:151][229]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.12-11.06.21:170][229]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek(R) Audio)
+[2023.10.12-11.06.21:170][229]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.12-11.06.21:170][229]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.12-11.06.21:170][229]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.12-11.06.21:171][229]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=100
+[2023.10.12-11.06.21:171][229]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=100
+[2023.10.12-11.06.21:172][229]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=100
+[2023.10.12-11.06.21:172][229]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=100
+[2023.10.12-11.06.21:172][229]LogInit: FAudioDevice initialized with ID 100.
+[2023.10.12-11.06.21:172][229]LogAudio: Display: Audio Device (ID: 100) registered with world 'FirstPersonMap'.
+[2023.10.12-11.06.21:172][229]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 100
+[2023.10.12-11.06.21:213][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.06.21:213][229]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.06.21:219][229]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.06.21
+[2023.10.12-11.06.21:219][229]LogWorld: Bringing up level for play took: 0.005060
+[2023.10.12-11.06.21:222][229]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2023.10.12-11.06.21:224][229]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.12-11.06.21:226][229]PIE: Server logged in
+[2023.10.12-11.06.21:227][229]PIE: Play in editor total start time 0,21 seconds.
+[2023.10.12-11.06.21:298][229]LogViewport: Scene viewport resized to 653x331, mode Windowed.
+[2023.10.12-11.06.39:632][855]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.12-11.06.39:632][855]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.12-11.06.39:632][855]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 0 (  Trying 52.0.57.176:443...)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 1 (connect to 52.0.57.176 port 443 failed: Timed out)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 2 (  Trying 54.156.40.32:443...)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 3 (After 19467ms connect time, move on!)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 4 (connect to 54.156.40.32 port 443 failed: Timed out)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 5 (  Trying 52.20.106.27:443...)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 6 (After 9732ms connect time, move on!)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 7 (connect to 52.20.106.27 port 443 failed: Timed out)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 8 (  Trying 3.223.173.43:443...)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 9 (After 4864ms connect time, move on!)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 10 (connect to 3.223.173.43 port 443 failed: Timed out)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 11 (  Trying 3.227.98.208:443...)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 12 (After 2430ms connect time, move on!)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 13 (connect to 3.227.98.208 port 443 failed: Timed out)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 14 (  Trying 35.169.187.171:443...)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 15 (After 1215ms connect time, move on!)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 16 (connect to 35.169.187.171 port 443 failed: Timed out)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 17 (  Trying 54.236.182.71:443...)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 18 (After 605ms connect time, move on!)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 19 (connect to 54.236.182.71 port 443 failed: Timed out)
+[2023.10.12-11.06.41:018][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 20 (  Trying 35.173.141.251:443...)
+[2023.10.12-11.06.41:019][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 21 (After 301ms connect time, move on!)
+[2023.10.12-11.06.41:019][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 22 (connect to 35.173.141.251 port 443 failed: Timed out)
+[2023.10.12-11.06.41:019][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 23 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59701 ms: Timed out)
+[2023.10.12-11.06.41:019][974]LogHttp: Warning: 000008202F92B400: libcurl info message cache 24 (Closing connection 134)
+[2023.10.12-11.06.41:019][974]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.06.41:055][975]LogViewport: Scene viewport resized to 1920x1006, mode Windowed.
+[2023.10.12-11.06.41:873][ 13]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.12-11.06.41:873][ 13]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.12-11.06.41:873][ 13]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.06.41:874][ 13]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.06.41:875][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.06.41:876][ 13]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.06.41:894][ 13]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.12-11.06.41:908][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.10.12-11.06.41:912][ 13]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.06.41:926][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014156s)
+[2023.10.12-11.06.41:926][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014196s)
+[2023.10.12-11.06.41:926][ 13]LogAudio: Display: Audio Device (ID: 100) registered with world 'FirstPersonMap'.
+[2023.10.12-11.06.41:926][ 13]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.06.41:926][ 13]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.06.41:927][ 13]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.06.41:927][ 13]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.06.41:927][ 13]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.06.41:927][ 13]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.06.41:927][ 13]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.06.41:932][ 13]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.06.41:932][ 13]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 913 ms)
+[2023.10.12-11.06.41:932][ 13]LogPlayLevel: PIE: World Init took: (0.005377s)
+[2023.10.12-11.06.41:932][ 13]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.06.41:936][ 13]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.06.41
+[2023.10.12-11.06.41:936][ 13]LogWorld: Bringing up level for play took: 0.003789
+[2023.10.12-11.06.41:938][ 13]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.12-11.06.41:938][ 13]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.12-11.06.41:939][ 13]LogLoad: Took 0.066574 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.12-11.07.04:395][ 38]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.12-11.07.04:395][ 38]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.12-11.07.04:395][ 38]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.12-11.07.05:781][104]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.12-11.07.05:781][104]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.12-11.07.05:781][104]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.07.05:782][104]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.07.05:784][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.07.05:784][104]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.07.05:800][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.12-11.07.05:813][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.10.12-11.07.05:816][104]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.07.05:830][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014074s)
+[2023.10.12-11.07.05:830][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014112s)
+[2023.10.12-11.07.05:830][104]LogAudio: Display: Audio Device (ID: 100) registered with world 'FirstPersonMap'.
+[2023.10.12-11.07.05:831][104]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.07.05:831][104]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.07.05:831][104]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.07.05:832][104]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.07.05:832][104]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.07.05:832][104]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.07.05:832][104]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.07.05:836][104]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.07.05:836][104]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 918 ms)
+[2023.10.12-11.07.05:836][104]LogPlayLevel: PIE: World Init took: (0.005778s)
+[2023.10.12-11.07.05:836][104]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.07.05:840][104]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.07.05
+[2023.10.12-11.07.05:841][104]LogWorld: Bringing up level for play took: 0.003697
+[2023.10.12-11.07.05:843][104]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.12-11.07.05:843][104]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.12-11.07.05:843][104]LogLoad: Took 0.061675 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.12-11.07.34:695][438]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.12-11.07.34:695][438]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.12-11.07.34:695][438]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.12-11.07.36:366][514]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.12-11.07.36:367][514]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2023.10.12-11.07.36:367][514]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.07.36:367][514]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.07.36:370][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.07.36:370][514]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.07.36:389][514]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.12-11.07.36:403][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.10.12-11.07.36:406][514]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.07.36:421][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014442s)
+[2023.10.12-11.07.36:421][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014479s)
+[2023.10.12-11.07.36:421][514]LogAudio: Display: Audio Device (ID: 100) registered with world 'FirstPersonMap'.
+[2023.10.12-11.07.36:421][514]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.12-11.07.36:421][514]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.12-11.07.36:421][514]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.12-11.07.36:422][514]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.12-11.07.36:422][514]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.12-11.07.36:422][514]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.12-11.07.36:422][514]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.12-11.07.36:426][514]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.12-11.07.36:426][514]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 922 ms)
+[2023.10.12-11.07.36:426][514]LogPlayLevel: PIE: World Init took: (0.005745s)
+[2023.10.12-11.07.36:426][514]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.12-11.07.36:431][514]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.12-13.07.36
+[2023.10.12-11.07.36:431][514]LogWorld: Bringing up level for play took: 0.003710
+[2023.10.12-11.07.36:433][514]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.10.12-11.07.36:433][514]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.10.12-11.07.36:434][514]LogLoad: Took 0.066954 seconds to LoadMap(/Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap)
+[2023.10.12-11.07.41:022][732]LogHttp: Warning: 0000082034469100: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.07.41:022][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 0 (  Trying 107.23.11.36:443...)
+[2023.10.12-11.07.41:022][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 1 (connect to 107.23.11.36 port 443 failed: Timed out)
+[2023.10.12-11.07.41:022][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 2 (  Trying 54.87.197.229:443...)
+[2023.10.12-11.07.41:022][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 3 (After 19463ms connect time, move on!)
+[2023.10.12-11.07.41:022][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 4 (connect to 54.87.197.229 port 443 failed: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 5 (  Trying 3.220.35.16:443...)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 6 (After 9730ms connect time, move on!)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 7 (connect to 3.220.35.16 port 443 failed: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 8 (  Trying 18.235.154.150:443...)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 9 (After 4864ms connect time, move on!)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 10 (connect to 18.235.154.150 port 443 failed: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 11 (  Trying 3.221.50.168:443...)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 12 (After 2430ms connect time, move on!)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 13 (connect to 3.221.50.168 port 443 failed: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 14 (  Trying 3.211.190.143:443...)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 15 (After 1215ms connect time, move on!)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 16 (connect to 3.211.190.143 port 443 failed: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 17 (  Trying 34.192.112.181:443...)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 18 (After 607ms connect time, move on!)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 19 (connect to 34.192.112.181 port 443 failed: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 20 (  Trying 44.193.99.138:443...)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 21 (After 302ms connect time, move on!)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 22 (connect to 44.193.99.138 port 443 failed: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 23 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59702 ms: Timed out)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: 0000082034469100: libcurl info message cache 24 (Closing connection 135)
+[2023.10.12-11.07.41:023][732]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.12-11.07.48:120][ 42]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2023.10.12-11.07.48:120][ 42]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.10.12-11.07.48:120][ 42]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.10.12-11.07.50:349][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.12-11.07.50:349][144]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.12-11.07.50:350][144]LogSlate: Window 'TargetShooter Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.10.12-11.07.50:353][144]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.12-11.07.50:356][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.07.50:356][144]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.12-11.07.50:379][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.12-11.07.50:384][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.12-11.07.50:403][144]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 100
+[2023.10.12-11.07.50:403][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=100
+[2023.10.12-11.07.50:405][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=100
+[2023.10.12-11.07.50:424][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.12-11.07.50:509][145]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2023.10.12-11.07.51:610][275]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.07.51:719][275]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.07.51:720][275]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrierEBB6A13044CCC2BC77651BB42023578C.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.07.51:725][275]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 29.3 sec)
+[2023.10.12-11.07.51:727][275]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.07.51:727][275]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.07.53:935][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.07.54:007][539]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.07.54:008][539]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrierF67313A649F47C92CF4DA2B18A397435.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.07.54:014][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 29.4 sec)
+[2023.10.12-11.07.54:016][539]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.07.54:016][539]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.08.35:077][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.08.35:142][478]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_TargetAndBarrier
+[2023.10.12-11.08.35:143][478]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/BP_TargetAndBarrier640DEB0841932274EBA447B9BFF12369.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/FirstPerson/Blueprints/BP_TargetAndBarrier.uasset'
+[2023.10.12-11.08.35:148][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 29.5 sec)
+[2023.10.12-11.08.35:150][478]AssetCheck: New page: Asset Save: BP_TargetAndBarrier
+[2023.10.12-11.08.35:150][478]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier
+[2023.10.12-11.08.37:599][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.10.12-11.08.38:705][752]LogSlate: Window 'Save Content' being destroyed
+[2023.10.12-11.08.38:713][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.12-11.08.38:754][752]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/TW/VDXJIEV1LWFMR68Y7YKK8E
+[2023.10.12-11.08.38:755][752]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/VDXJIEV1LWFMR68Y7YKK8EB7FE3A1E4D8B10AF6026C1A8738A0B52.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/TW/VDXJIEV1LWFMR68Y7YKK8E.uasset'
+[2023.10.12-11.08.38:764][752]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/X7/7D1VH07SJXGCFNOYQ9TPMX
+[2023.10.12-11.08.38:764][752]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/7D1VH07SJXGCFNOYQ9TPMX284A46414AFCA8E9982BCC8ED884D4B0.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/X7/7D1VH07SJXGCFNOYQ9TPMX.uasset'
+[2023.10.12-11.08.38:773][752]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/AK/N8C4CJR1DDPOBX8H3W2UJT
+[2023.10.12-11.08.38:773][752]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/N8C4CJR1DDPOBX8H3W2UJT4137635E4FC591282C11CDB7D9FD4B54.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/AK/N8C4CJR1DDPOBX8H3W2UJT.uasset'
+[2023.10.12-11.08.38:780][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 29.6 sec)
+[2023.10.12-11.08.38:783][752]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.12-11.08.38:783][752]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_TargetAndBarrier_C_UAID_001B21EB03BBEBB101_1834846787
+[2023.10.12-11.08.38:783][752]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_TargetAndBarrier_C_UAID_001B21EB03BBEBB101_1846410832
+[2023.10.12-11.08.38:783][752]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_TargetAndBarrier.BP_TargetAndBarrier_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_TargetAndBarrier_C_UAID_001B21EB03BBEBB101_1849520880
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 0 (  Trying 54.165.165.181:443...)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 1 (connect to 54.165.165.181 port 443 failed: Timed out)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 2 (  Trying 3.210.255.33:443...)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 3 (After 19474ms connect time, move on!)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 4 (connect to 3.210.255.33 port 443 failed: Timed out)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 5 (  Trying 52.200.217.199:443...)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 6 (After 9736ms connect time, move on!)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 7 (connect to 52.200.217.199 port 443 failed: Timed out)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 8 (  Trying 18.214.45.220:443...)
+[2023.10.12-11.08.41:070][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 9 (After 4868ms connect time, move on!)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 10 (connect to 18.214.45.220 port 443 failed: Timed out)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 11 (  Trying 52.6.219.105:443...)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 12 (After 2432ms connect time, move on!)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 13 (connect to 52.6.219.105 port 443 failed: Timed out)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 14 (  Trying 54.209.226.71:443...)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 15 (After 1216ms connect time, move on!)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 16 (connect to 54.209.226.71 port 443 failed: Timed out)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 17 (  Trying 52.200.166.195:443...)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 18 (After 606ms connect time, move on!)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 19 (connect to 52.200.166.195 port 443 failed: Timed out)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 20 (  Trying 34.237.28.194:443...)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 21 (After 303ms connect time, move on!)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 22 (connect to 34.237.28.194 port 443 failed: Timed out)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 23 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59697 ms: Timed out)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: 000008202FE92800: libcurl info message cache 24 (Closing connection 136)
+[2023.10.12-11.08.41:071][851]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62A5A341-45B1-87AC-304D-82AE7A224701%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
