@@ -18060,3 +18060,184 @@ UnknownFunction []
 [2023.10.13-12.20.04:705][763]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 38.8 sec)
 [2023.10.13-12.20.04:707][763]AssetCheck: New page: Asset Save: GM_TargetGame
 [2023.10.13-12.20.04:707][763]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/GM_TargetGame.GM_TargetGame
+[2023.10.13-12.20.52:637][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.10.13-12.20.52:718][643]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-12.20.52:729][643]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/Difficulty1.Difficulty1
+[2023.10.13-12.20.52:729][643]Cmd: MAP LOAD FILE="../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/Level/Difficulty1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.13-12.20.52:729][643]LightingResults: New page: Lighting Build
+[2023.10.13-12.20.52:729][643]LoadErrors: New page: Loading map: Difficulty1.umap
+[2023.10.13-12.20.52:758][643]LogWorld: UWorld::CleanupWorld for Difficulty2, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-12.20.52:758][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-12.20.52:758][643]MapCheck: New page: Map Check
+[2023.10.13-12.20.52:758][643]LightingResults: New page: Lighting Build
+[2023.10.13-12.20.52:772][643]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.13-12.20.52:775][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.13-12.20.52:780][643]LogWorld: UWorld::CleanupWorld for Difficulty1, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-12.20.52:781][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-12.20.52:800][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.10.13-12.20.52:819][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.10.13-12.20.52:845][643]LogAudio: Display: Audio Device (ID: 1) registered with world 'Difficulty1'.
+[2023.10.13-12.20.52:845][643]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-12.20.52:845][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-12.20.52:846][643]LogAIModule: Creating AISystem for world Difficulty1
+[2023.10.13-12.20.52:924][643]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.13-12.20.52:941][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.10.13-12.20.52:950][643]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.13-12.20.52:950][643]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,121ms to complete.
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: request failed, libcurl error: 28 (Timeout was reached)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 1 (  Trying 18.214.45.220:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 2 (connect to 18.214.45.220 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 3 (  Trying 52.200.166.195:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 4 (After 19463ms connect time, move on!)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 5 (connect to 52.200.166.195 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 6 (  Trying 54.165.165.181:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 7 (After 9730ms connect time, move on!)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 8 (connect to 54.165.165.181 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 9 (  Trying 35.153.227.153:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 10 (After 4866ms connect time, move on!)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 11 (connect to 35.153.227.153 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 12 (  Trying 52.200.217.199:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 13 (After 2431ms connect time, move on!)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 14 (connect to 52.200.217.199 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 15 (  Trying 54.209.226.71:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 16 (After 1214ms connect time, move on!)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 17 (connect to 54.209.226.71 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 18 (  Trying 3.210.255.33:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 19 (After 606ms connect time, move on!)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 20 (connect to 3.210.255.33 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 21 (  Trying 52.6.219.105:443...)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 22 (After 301ms connect time, move on!)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 23 (connect to 52.6.219.105 port 443 failed: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 24 (Failed to connect to datarouter.ol.epicgames.com port 443 after 59698 ms: Timed out)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: 000006C46B13CD00: libcurl info message cache 25 (Closing connection 184)
+[2023.10.13-12.20.58:946][968]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B236BFDCC-4FD1-01F3-8E8F-D59BB20A07A7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=98c17cc44e6d985adf50599349a63132%7Cf0a79116f5664771901db83b169bf949%7Ca7f3b755-c648-45da-b9e9-fd87a86035ea&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.10.13-12.21.13:812][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-12.21.13:938][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.10.13-12.21.14:005][591]LogSavePackage: Moving output files for package: /Game/Level/Difficulty1
+[2023.10.13-12.21.14:006][591]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/Difficulty16EE3E31A4D5945D1A2F644B957F9EAEF.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/Level/Difficulty1.umap'
+[2023.10.13-12.21.14:015][591]LogFileHelpers: Saving map 'Difficulty1' took 0.116
+[2023.10.13-12.21.14:021][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 39.0 sec)
+[2023.10.13-12.21.14:023][591]AssetCheck: New page: Asset Save: Difficulty1
+[2023.10.13-12.21.14:023][591]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/Difficulty1.Difficulty1
+[2023.10.13-12.21.14:961][631]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-12.21.14:971][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.13-12.21.14:971][631]PIE: New page: PIE session: Difficulty1 (13 oct. 2023 à 16:21:14)
+[2023.10.13-12.21.14:971][631]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Difficulty1
+[2023.10.13-12.21.14:986][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014484s)
+[2023.10.13-12.21.14:986][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Difficulty1.Difficulty1 to /Game/Level/UEDPIE_0_Difficulty1.Difficulty1 (0.014517s)
+[2023.10.13-12.21.15:003][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.13-12.21.15:005][631]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-12.21.15:005][631]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-12.21.15:005][631]LogAIModule: Creating AISystem for world Difficulty1
+[2023.10.13-12.21.15:005][631]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2023.10.13-12.21.15:005][631]LogAudio: Display: Creating Audio Device:                 Id: 110, Scope: Unique, Realtime: True
+[2023.10.13-12.21.15:006][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-12.21.15:006][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-12.21.15:006][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-12.21.15:006][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-12.21.15:006][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.13-12.21.15:006][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.13-12.21.15:006][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.13-12.21.15:006][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-12.21.15:006][631]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-12.21.15:006][631]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-12.21.15:006][631]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-12.21.15:008][631]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-12.21.15:023][631]LogAudioMixer: Display: Using Audio Hardware Device Casque (Realtek(R) Audio)
+[2023.10.13-12.21.15:023][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-12.21.15:024][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-12.21.15:024][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-12.21.15:024][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=110
+[2023.10.13-12.21.15:024][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=110
+[2023.10.13-12.21.15:026][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=110
+[2023.10.13-12.21.15:026][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=110
+[2023.10.13-12.21.15:026][631]LogInit: FAudioDevice initialized with ID 110.
+[2023.10.13-12.21.15:026][631]LogAudio: Display: Audio Device (ID: 110) registered with world 'Difficulty1'.
+[2023.10.13-12.21.15:026][631]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 110
+[2023.10.13-12.21.15:029][631]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.13-12.21.15:034][631]LogWorld: Bringing World /Game/Level/UEDPIE_0_Difficulty1.Difficulty1 up for play (max tick rate 0) at 2023.10.13-14.21.15
+[2023.10.13-12.21.15:034][631]LogWorld: Bringing up level for play took: 0.004475
+[2023.10.13-12.21.15:036][631]LogOnline: OSS: Created online subsystem instance for: :Context_140
+[2023.10.13-12.21.15:038][631]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.13-12.21.15:038][631]PIE: Server logged in
+[2023.10.13-12.21.15:039][631]PIE: Play in editor total start time 0,068 seconds.
+[2023.10.13-12.21.19:081][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-12.21.19:082][781]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Difficulty1
+[2023.10.13-12.21.19:082][781]LogWorld: UWorld::CleanupWorld for Difficulty1, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-12.21.19:083][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-12.21.19:118][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-12.21.19:124][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-12.21.19:137][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-12.21.19:138][781]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 110
+[2023.10.13-12.21.19:138][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2023.10.13-12.21.19:140][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2023.10.13-12.21.19:147][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.10.13-12.21.19:221][782]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2023.10.13-12.21.24:218][968]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.13-12.21.24:355][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.10.13-12.21.24:424][968]LogSavePackage: Moving output files for package: /Game/Level/Difficulty1
+[2023.10.13-12.21.24:425][968]LogSavePackage: Moving '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Saved/Difficulty179203B3E40B31B525A30CFAFF7D77D1A.tmp' to '../../../../../../Users/barsoni/Documents/Unreal Projects/TargetShooter/TargetShooter/Content/Level/Difficulty1.umap'
+[2023.10.13-12.21.24:434][968]LogFileHelpers: Saving map 'Difficulty1' took 0.117
+[2023.10.13-12.21.24:440][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 39.2 sec)
+[2023.10.13-12.21.24:442][968]AssetCheck: New page: Asset Save: Difficulty1
+[2023.10.13-12.21.24:442][968]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/Difficulty1.Difficulty1
+[2023.10.13-12.21.25:246][  4]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.13-12.21.25:257][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.13-12.21.25:257][  4]PIE: New page: PIE session: Difficulty1 (13 oct. 2023 à 16:21:25)
+[2023.10.13-12.21.25:257][  4]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Difficulty1
+[2023.10.13-12.21.25:271][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013860s)
+[2023.10.13-12.21.25:271][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Difficulty1.Difficulty1 to /Game/Level/UEDPIE_0_Difficulty1.Difficulty1 (0.013890s)
+[2023.10.13-12.21.25:289][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.10.13-12.21.25:291][  4]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.13-12.21.25:291][  4]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.13-12.21.25:291][  4]LogAIModule: Creating AISystem for world Difficulty1
+[2023.10.13-12.21.25:292][  4]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2023.10.13-12.21.25:292][  4]LogAudio: Display: Creating Audio Device:                 Id: 111, Scope: Unique, Realtime: True
+[2023.10.13-12.21.25:292][  4]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.13-12.21.25:292][  4]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.13-12.21.25:292][  4]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.13-12.21.25:292][  4]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.13-12.21.25:292][  4]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.13-12.21.25:292][  4]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.13-12.21.25:292][  4]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.13-12.21.25:292][  4]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.13-12.21.25:292][  4]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.13-12.21.25:292][  4]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.13-12.21.25:292][  4]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.13-12.21.25:294][  4]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.13-12.21.25:309][  4]LogAudioMixer: Display: Using Audio Hardware Device Casque (Realtek(R) Audio)
+[2023.10.13-12.21.25:309][  4]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.13-12.21.25:309][  4]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.13-12.21.25:309][  4]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.13-12.21.25:309][  4]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=111
+[2023.10.13-12.21.25:309][  4]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=111
+[2023.10.13-12.21.25:311][  4]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=111
+[2023.10.13-12.21.25:311][  4]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=111
+[2023.10.13-12.21.25:311][  4]LogInit: FAudioDevice initialized with ID 111.
+[2023.10.13-12.21.25:311][  4]LogAudio: Display: Audio Device (ID: 111) registered with world 'Difficulty1'.
+[2023.10.13-12.21.25:311][  4]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 111
+[2023.10.13-12.21.25:313][  4]LogLoad: Game class is 'GM_TargetGame_C'
+[2023.10.13-12.21.25:319][  4]LogWorld: Bringing World /Game/Level/UEDPIE_0_Difficulty1.Difficulty1 up for play (max tick rate 0) at 2023.10.13-14.21.25
+[2023.10.13-12.21.25:319][  4]LogWorld: Bringing up level for play took: 0.004577
+[2023.10.13-12.21.25:321][  4]LogOnline: OSS: Created online subsystem instance for: :Context_141
+[2023.10.13-12.21.25:323][  4]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.10.13-12.21.25:324][  4]PIE: Server logged in
+[2023.10.13-12.21.25:324][  4]PIE: Play in editor total start time 0,068 seconds.
+[2023.10.13-12.21.29:622][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-12.21.29:622][160]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Difficulty1
+[2023.10.13-12.21.29:622][160]LogWorld: UWorld::CleanupWorld for Difficulty1, bSessionEnded=true, bCleanupResources=true
+[2023.10.13-12.21.29:622][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-12.21.29:647][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.13-12.21.29:653][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.13-12.21.29:669][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.13-12.21.29:670][160]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 111
+[2023.10.13-12.21.29:670][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111
+[2023.10.13-12.21.29:672][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111
+[2023.10.13-12.21.29:680][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.10.13-12.21.29:751][161]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2023.10.13-12.21.37:574][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.10.13-12.21.38:198][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.13-12.21.38:340][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.10.13-12.21.38:457][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.10.13-12.21.38:625][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
